@@ -28,6 +28,8 @@ services:
     container_name: frontend
     volumes:
       - schema-files:/frontend/schema
+    ports:
+      - "8001:8001"
 
   backend:
     build: ./backend
@@ -47,6 +49,8 @@ services:
       - static-files:/backend/static-files
       - media-files:/backend/media
       - schema-files:/backend/schema
+    ports:
+      - "3000:3000"
 
   nginx:
     build:
