@@ -73,8 +73,18 @@ services:
     volumes:
       - db-data:/var/lib/postgresql/data
 
+  redis:
+    image: redis:latest
+    restart: always
+    container_name: redis
+    command: [ "redis-server", "--appendonly", "yes" ]
+    volumes:
+      - redis-data:/data
+
 volumes:
   static-files:
   db-data:
   media-files:
   schema-files:
+  redis-data:
+
