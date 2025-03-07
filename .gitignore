@@ -157,6 +157,6 @@ static-files/*.js
 # Relay
 #*__generated__*
 backend/schema/
-frontend/schema/*
+
 /backend/venv
 /backend/env
