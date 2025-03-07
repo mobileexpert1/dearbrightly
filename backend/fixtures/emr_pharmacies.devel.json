@@ -1,0 +1,20 @@
+[
+  {
+    "model": "emr.pharmacy",
+    "pk": 4,
+    "fields": {
+      "created_datetime": "2019-11-18 05:15:37.557537Z",
+      "last_modified_datetime": "2019-11-18 05:15:37.557537Z",
+      "name": "VA Pharmacy Store 10.6",
+      "store_name": "VA Pharmacy Store 10.6",
+      "address_line1": "2800-1 Crystal Dr",
+      "address_line2": "",
+      "city": "Arlington",
+      "state": "VA",
+      "postal_code": "22202",
+      "primary_phone": "7035154445",
+      "primary_fax": "7034145556",
+      "dosespot_id": 8377
+    }
+  }
+]

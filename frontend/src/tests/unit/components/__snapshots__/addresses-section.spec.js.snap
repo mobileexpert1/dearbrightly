@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddressesSection should render correctly 1`] = `
+<div
+  className="addresses-section-container"
+>
+  <div
+    className="new-address-button-container"
+  >
+    <Button
+      text="New Address"
+      type="clear"
+    />
+  </div>
+  <div
+    className="addresses-content"
+  >
+    <div
+      className="addresses-section-username"
+    >
+      Username
+    </div>
+    <div
+      className="address-section-buttons-container"
+    >
+      <Button
+        text="Edit"
+        type="clear"
+      />
+      <div
+        className="button-spacing"
+      />
+      <Button
+        text="Delete"
+        type="black"
+      />
+    </div>
+  </div>
+  <Address />
+</div>
+`;

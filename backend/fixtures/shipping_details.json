@@ -1,0 +1,287 @@
+[
+  {
+    "model": "users.shippingDetails",
+    "pk": 1,
+    "fields": {
+      "address_line1": "2431 Mission St.",
+      "address_line2": "User Address",
+      "city": "San Francisco",
+      "state": "CA",
+      "postal_code": "94110",
+      "country": "US",
+      "phone": "5103979381",
+      "first_name": "Dear Brightly",
+      "last_name": "Admin"
+    }
+  },
+  {
+    "model": "users.shippingDetails",
+    "pk": 2,
+    "fields": {
+      "address_line1": "2431 Mission St.",
+      "address_line2": "Shipping Address",
+      "city": "San Francisco",
+      "state": "CA",
+      "postal_code": "94110",
+      "country": "US",
+      "phone": "5103979381",
+      "first_name": "Dear Brightly",
+      "last_name": "Admin"
+    }
+  },
+  {
+    "model": "users.shippingDetails",
+    "pk": 3,
+    "fields": {
+      "address_line1": "660 4th St.",
+      "address_line2": "User Address",
+      "state": "CA",
+      "postal_code": "94107",
+      "phone": "3123456789",
+      "city": "San Francisco",
+      "country": "US",
+      "first_name": "Dear Brightly",
+      "last_name": "User"
+    }
+  },
+  {
+    "model": "users.shippingDetails",
+    "pk": 4,
+    "fields": {
+      "address_line1": "660 4th St.",
+      "address_line2": "Shipping Address",
+      "state": "CA",
+      "postal_code": "94107",
+      "phone": "3123456789",
+      "city": "San Francisco",
+      "country": "US",
+      "first_name": "Dear Brightly",
+      "last_name": "User"
+    }
+  },
+  {
+    "model": "users.shippingDetails",
+    "pk": 5,
+    "fields": {
+      "address_line1": "2432 Mission St.",
+      "address_line2": "User Address",
+      "city": "San Francisco",
+      "state": "CA",
+      "postal_code": "94112",
+      "country": "US",
+      "phone": "3123456789",
+      "first_name": "Dear Brightly",
+      "last_name": "User2"
+    }
+  },
+  {
+    "model": "users.shippingDetails",
+    "pk": 6,
+    "fields": {
+      "address_line1": "2432 Mission St.",
+      "address_line2": "Shipping Address 1",
+      "city": "San Francisco",
+      "state": "CA",
+      "postal_code": "94112",
+      "country": "US",
+      "phone": "3123456789",
+      "first_name": "Dear Brightly",
+      "last_name": "User2"
+    }
+  },
+  {
+    "model": "users.shippingDetails",
+    "pk": 7,
+    "fields": {
+      "address_line1": "2432 Mission St.",
+      "address_line2": "Shipping Address 2",
+      "city": "San Francisco",
+      "state": "CA",
+      "postal_code": "94112",
+      "country": "US",
+      "phone": "3123456789",
+      "first_name": "Dear Brightly",
+      "last_name": "User2"
+    }
+  },
+  {
+    "model": "users.shippingDetails",
+    "pk": 8,
+    "fields": {
+      "address_line1": "2433 Mission St.",
+      "address_line2": "User Address",
+      "state": "CA",
+      "postal_code": "94110",
+      "phone": "4123456789",
+      "city": "San Francisco",
+      "country": "US",
+      "first_name": "Dear Brightly",
+      "last_name": "User3"
+    }
+  },
+  {
+    "model": "users.shippingDetails",
+    "pk": 9,
+    "fields": {
+      "address_line1": "2433 Mission St.",
+      "address_line2": "Shipping Address 1",
+      "city": "San Francisco",
+      "state": "CA",
+      "postal_code": "94110",
+      "country": "US",
+      "phone": "4123456789",
+      "first_name": "Dear Brightly",
+      "last_name": "User3"
+    }
+  },
+  {
+    "model": "users.shippingDetails",
+    "pk": 10,
+    "fields": {
+      "address_line1": "2433 Mission St.",
+      "address_line2": "Shipping Address 2",
+      "city": "San Francisco",
+      "state": "CA",
+      "postal_code": "94110",
+      "country": "US",
+      "phone": "4123456789",
+      "first_name": "Dear Brightly",
+      "last_name": "User3"
+    }
+  },
+  {
+    "model": "users.shippingDetails",
+    "pk": 11,
+    "fields": {
+      "address_line1": "2434 Mission St.",
+      "address_line2": "User Address",
+      "city": "San Francisco",
+      "state": "CA",
+      "postal_code": "94110",
+      "country": "US",
+      "phone": "5123456789",
+      "first_name": "Dear Brightly",
+      "last_name": "User4"
+    }
+  },
+  {
+    "model": "users.shippingDetails",
+    "pk": 12,
+    "fields": {
+      "address_line1": "2434 Mission St.",
+      "address_line2": "Shipping Address",
+      "city": "San Francisco",
+      "state": "CA",
+      "postal_code": "94110",
+      "country": "US",
+      "phone": "5123456789",
+      "first_name": "Dear Brightly",
+      "last_name": "User4"
+    }
+  },
+  {
+    "model": "users.shippingDetails",
+    "pk": 13,
+    "fields": {
+      "address_line1": "2434 Mission St.",
+      "address_line2": "Shipping Address",
+      "city": "San Francisco",
+      "state": "CA",
+      "postal_code": "94110",
+      "country": "US",
+      "phone": "5123456789",
+      "first_name": "Dear Brightly",
+      "last_name": "User4"
+    }
+  },
+  {
+    "model": "users.shippingDetails",
+    "pk": 14,
+    "fields": {
+      "address_line1": "2435 Mission St.",
+      "address_line2": "User Address",
+      "city": "San Francisco",
+      "state": "CA",
+      "postal_code": "94110",
+      "country": "US",
+      "phone": "6123456789",
+      "first_name": "Dear Brightly",
+      "last_name": "User5"
+    }
+  },
+  {
+    "model": "users.shippingDetails",
+    "pk": 15,
+    "fields": {
+      "address_line1": "2435 Mission St.",
+      "address_line2": "Shipping Address",
+      "city": "San Francisco",
+      "state": "CA",
+      "postal_code": "94110",
+      "country": "US",
+      "phone": "6123456789",
+      "first_name": "Dear Brightly",
+      "last_name": "User5"
+    }
+  },
+  {
+    "model": "users.shippingDetails",
+    "pk": 16,
+    "fields": {
+      "address_line1": "2436 Mission St.",
+      "address_line2": "User Address",
+      "city": "San Francisco",
+      "state": "CA",
+      "postal_code": "94110",
+      "country": "US",
+      "phone": "8123456789",
+      "first_name": "Dear Brightly",
+      "last_name": "User6"
+    }
+  },
+  {
+    "model": "users.shippingDetails",
+    "pk": 17,
+    "fields": {
+      "address_line1": "2436 Mission St.",
+      "address_line2": "Shipping Address",
+      "city": "San Francisco",
+      "state": "CA",
+      "postal_code": "94110",
+      "country": "US",
+      "phone": "8123456789",
+      "first_name": "Dear Brightly",
+      "last_name": "User6"
+    }
+  },
+  {
+    "model": "users.shippingDetails",
+    "pk": 18,
+    "fields": {
+      "address_line1": "2437 Mission St.",
+      "address_line2": "User Address",
+      "city": "San Francisco",
+      "state": "CA",
+      "postal_code": "94110",
+      "country": "US",
+      "phone": "9123456789",
+      "first_name": "Dear Brightly",
+      "last_name": "User7"
+    }
+  },
+  {
+    "model": "users.shippingDetails",
+    "pk": 19,
+    "fields": {
+      "address_line1": "2437 Mission St.",
+      "address_line2": "Shipping Address",
+      "city": "San Francisco",
+      "state": "CA",
+      "postal_code": "94110",
+      "country": "US",
+      "phone": "9123456789",
+      "first_name": "Dear Brightly",
+      "last_name": "User7"
+    }
+  }
+]

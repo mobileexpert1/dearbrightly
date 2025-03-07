@@ -1,0 +1,26 @@
+[
+  {
+    "model": "subscriptions.orderitemsubscription",
+    "pk": 1,
+    "fields": {
+      "created_datetime": "2019-09-20 00:30:25Z",
+      "last_modified_datetime": "2019-09-20 00:30:25Z",
+      "customer": 5,
+      "order_product_subscription": 1,
+      "product": 9,
+      "payment_processor_subscription_id": "sub_FqNK6JzndPunvi"
+    }
+  },
+    {
+    "model": "subscriptions.orderitemsubscription",
+    "pk": 2,
+    "fields": {
+      "created_datetime": "2020-01-20 00:30:25Z",
+      "last_modified_datetime": "2019-09-20 00:30:25Z",
+      "customer": 6,
+      "order_product_subscription": 2,
+      "product": 9,
+      "payment_processor_subscription_id": "sub_GyRnILzzKxNZrQ"
+    }
+  }
+]

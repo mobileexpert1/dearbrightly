@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginPage should render correctly 1`] = `
+<LoginPage>
+  <div
+    className="login-page-container"
+  >
+    <div
+      className="login-page-section"
+    >
+      <div
+        className="login-page-title"
+      >
+        Log In
+      </div>
+      <form
+        name="form"
+        onSubmit={[Function]}
+      >
+        <div
+          className="login-page-form"
+        >
+          <div
+            className="form-group"
+          >
+            <Input
+              handleChange={[Function]}
+              name="email"
+              required={true}
+              title="Email Address"
+              type="text"
+            >
+              <div
+                className="input-container"
+              >
+                <div
+                  className="input-title"
+                >
+                  Email Address
+                  <span
+                    className="input-required"
+                  >
+                    *
+                  </span>
+                </div>
+                <input
+                  name="email"
+                  onChange={[Function]}
+                  type="text"
+                />
+              </div>
+            </Input>
+          </div>
+          <div
+            className="form-group"
+          >
+            <Input
+              handleChange={[Function]}
+              name="password"
+              required={true}
+              title="Password"
+              type="password"
+            >
+              <div
+                className="input-container"
+              >
+                <div
+                  className="input-title"
+                >
+                  Password
+                  <span
+                    className="input-required"
+                  >
+                    *
+                  </span>
+                </div>
+                <input
+                  name="password"
+                  onChange={[Function]}
+                  type="password"
+                />
+              </div>
+            </Input>
+          </div>
+        </div>
+        <div
+          className="login-page-form"
+        >
+          <Button
+            onClick={[Function]}
+            text="Login"
+            type="black"
+          >
+            <div
+              className="black-button"
+              onClick={[Function]}
+            >
+              Login
+            </div>
+          </Button>
+          <div
+            className="login-page-forgot-password"
+            onClick={[Function]}
+          >
+            Forgot Password?
+          </div>
+        </div>
+      </form>
+    </div>
+    <div
+      className="login-page-section"
+    >
+      <div
+        className="login-page-title"
+      >
+        New Customer
+      </div>
+      <div
+        className="login-page-details"
+      >
+        Create an account with us and you'll be able to:
+      </div>
+      <ul
+        className="login-page-ul"
+      >
+        <li>
+          Check out faster
+        </li>
+        <li>
+          Save multiple shipping addresses
+        </li>
+        <li>
+          Access your order history
+        </li>
+        <li>
+          Track new orders
+        </li>
+      </ul>
+      <Link
+        className="login-page-button"
+        onlyActiveOnIndex={false}
+        style={Object {}}
+        to="/register"
+      >
+        <a
+          className="login-page-button"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          <Button
+            text="Create Account"
+            type="clear"
+          >
+            <div
+              className="clear-button"
+            >
+              Create Account
+            </div>
+          </Button>
+        </a>
+      </Link>
+    </div>
+  </div>
+</LoginPage>
+`;

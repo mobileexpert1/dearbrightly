@@ -1,0 +1,152 @@
+[
+  {
+    "model": "emr.patientprescription",
+    "pk": 1,
+    "fields": {
+      "uuid": "3da68ce8-fe89-4d97-b296-ea87f6a250cc",
+      "prescribed_datetime": "2021-04-19 18:52:23.739857+00",
+      "prescription_id": 1,
+      "patient_id": 4,
+      "pharmacy_id": 1,
+      "visit_id": 1,
+      "dosespot_id": null,
+      "medical_provider_id": 2,
+      "status": "eRxSent"
+    }
+  },
+  {
+    "model": "emr.patientprescription",
+    "pk": 2,
+    "fields": {
+      "uuid": "d7d38870-19ea-4132-8b7a-4628c883b1ee",
+      "prescribed_datetime": "2021-04-19 18:52:23.739857+00",
+      "prescription_id": 2,
+      "patient_id": 4,
+      "pharmacy_id": 1,
+      "visit_id": 1,
+      "dosespot_id": null,
+      "medical_provider_id": 2,
+      "status": "eRxSent"
+    }
+  },
+  {
+    "model": "emr.patientprescription",
+    "pk": 3,
+    "fields": {
+      "uuid": "a6d05635-5355-44d2-a40e-c901d3dc3117",
+      "prescribed_datetime": "2019-07-21T09:08:16.270008+00",
+      "prescription_id": 1,
+      "patient_id": 5,
+      "pharmacy_id": 1,
+      "visit_id": 2,
+      "dosespot_id": null,
+      "medical_provider_id": 2,
+      "status": "PharmacyVerified"
+    }
+  },
+  {
+    "model": "emr.patientprescription",
+    "pk": 4,
+    "fields": {
+      "uuid": "96ad458b-19cf-497b-8077-b22fca111827",
+      "prescribed_datetime": "2019-07-21T09:08:16.270008+00",
+      "prescription_id": 3,
+      "patient_id": 5,
+      "pharmacy_id": 1,
+      "visit_id": 2,
+      "dosespot_id": null,
+      "medical_provider_id": 2,
+      "status": "PharmacyVerified"
+    }
+  },
+  {
+    "model": "emr.patientprescription",
+    "pk": 5,
+    "fields": {
+      "uuid": "3d4f1472-50b5-41e4-a9b8-987ea76f8319",
+      "prescribed_datetime": "2017-07-19T09:08:16.270008+00",
+      "prescription_id": 1,
+      "patient_id": 6,
+      "pharmacy_id": 1,
+      "visit_id": 4,
+      "dosespot_id": null,
+      "medical_provider_id": 2,
+      "status": "PharmacyVerified"
+    }
+  },
+  {
+    "model": "emr.patientprescription",
+    "pk": 7,
+    "fields": {
+      "uuid": "b3f70322-e267-4ecf-81c4-f5257cf51f80",
+      "prescribed_datetime": "2020-07-19T09:08:16.270008+00",
+      "prescription_id": 6,
+      "patient_id": 6,
+      "pharmacy_id": 1,
+      "visit_id": 4,
+      "dosespot_id": null,
+      "medical_provider_id": 2,
+      "status": "PharmacyVerified"
+    }
+  },
+  {
+    "model": "emr.patientprescription",
+    "pk": 8,
+    "fields": {
+      "uuid": "3fcafc7b-d4d8-41ea-8524-a20e1d591097",
+      "prescribed_datetime": "2021-04-19 18:52:23.739857+00",
+      "prescription_id": 1,
+      "patient_id": 7,
+      "pharmacy_id": 1,
+      "visit_id": 5,
+      "dosespot_id": null,
+      "medical_provider_id": 2,
+      "status": "PharmacyVerified"
+    }
+  },
+  {
+    "model": "emr.patientprescription",
+    "pk": 9,
+    "fields": {
+      "uuid": "8683bd31-0294-4e0f-bc4a-c3aaee2ccfea",
+      "prescribed_datetime": "2021-04-19 18:52:23.739857+00",
+      "prescription_id": 9,
+      "patient_id": 7,
+      "pharmacy_id": 1,
+      "visit_id": 5,
+      "dosespot_id": null,
+      "medical_provider_id": 2,
+      "status": "PharmacyVerified"
+    }
+  },
+  {
+    "model": "emr.patientprescription",
+    "pk": 10,
+    "fields": {
+      "uuid": "8683bd31-0294-4e0f-bc4a-c3aaee2cefea",
+      "prescribed_datetime": "2019-01-01T11:08:16.270008+00",
+      "prescription_id": 1,
+      "patient_id": 8,
+      "pharmacy_id": 1,
+      "visit_id": 6,
+      "dosespot_id": null,
+      "medical_provider_id": 2,
+      "status": "PharmacyVerified"
+    }
+  },
+  {
+    "model": "emr.patientprescription",
+    "pk": 11,
+    "fields": {
+      "uuid": "3fcafc7b-d4d8-41ea-8524-a22e1d591097",
+      "prescribed_datetime": "2018-01-01T11:08:16.270008+00",
+      "prescription_id": 2,
+      "patient_id": 8,
+      "pharmacy_id": 1,
+      "visit_id": 6,
+      "dosespot_id": null,
+      "medical_provider_id": 2,
+      "status": "PharmacyVerified"
+    }
+  }
+]

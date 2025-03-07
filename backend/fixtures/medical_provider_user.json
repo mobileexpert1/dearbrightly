@@ -1,0 +1,14 @@
+[
+  {
+    "model": "users.medicalprovideruser",
+    "pk": 1,
+    "fields": {
+      "platform_service_fee": 1000,
+      "user_ptr_id": 2,
+      "stripe_connect_id": "acct_1FylgwHbYWoBwQDp",
+      "states": ["CA","IL","MA"],
+      "profile_photo_file": "https://d2ndcoyp4lno8u.cloudfront.net/dr-alicia.jpg",
+      "stripe_connect_id" : "acct_1FylgwHbYWoBwQDp"
+    }
+  }
+]

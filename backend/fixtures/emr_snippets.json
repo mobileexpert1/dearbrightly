@@ -1,0 +1,143 @@
+[
+  {
+    "model": "emr.snippet",
+    "pk": 1,
+    "fields": {
+      "created_datetime": "2019-07-23T00:44:06.131335+00",
+      "last_modified_datetime": "2019-07-23T00:44:06.131335+00",
+      "name": "Non-clinical Question",
+      "body": "Hi! Thank you for your question. I apologize for the inconvenience, but I’m only able to answer your medical questions. Please reach out to Dear Brightly Support at support@dearbrightly.com and they’ll be happy to assist you."
+    }
+  },
+  {
+    "model": "emr.snippet",
+    "pk": 2,
+    "fields": {
+      "created_datetime": "2019-07-23T00:44:06.131335+00",
+      "last_modified_datetime": "2019-07-23T00:44:06.131335+00",
+      "name": "Ingredients",
+      "body": "Hi! The active ingredient is 0.011%-0.02% Tretinoin and the inactive ingredient is Pracasil or Anhydrous Cream, depending on your skin type."
+    }
+  },
+  {
+    "model": "emr.snippet",
+    "pk": 3,
+    "fields": {
+      "created_datetime": "2019-07-23T00:44:06.131335+00",
+      "last_modified_datetime": "2019-07-23T00:44:06.131335+00",
+      "name": "Request for more than one prescription at a time",
+      "body": "Hi! I apologize for the inconvenience, but only one prescription can be filled at a time. When you’re ready for your next refill, just purchase your order through the Dear Brightly website and they'll take it from there. You do not need to fill out the questionnaire or upload photos again since we have that data on file. If you have further questions, please reach out to Dear Brightly Support at support@dearbrightly.com and they’ll be happy to assist you."
+    }
+  },
+  {
+    "model": "emr.snippet",
+    "pk": 4,
+    "fields": {
+      "created_datetime": "2019-07-23T00:44:06.131335+00",
+      "last_modified_datetime": "2019-07-23T00:44:06.131335+00",
+      "name": "Request for a refill",
+      "body": "Hi! To request for a refill, you will need to purchase an order through the Dear Brightly website and they'll take it from there. You do not need to fill out the questionnaire or upload photos again since we have that data on file. If you have further questions, please reach out to Dear Brightly Support at support@dearbrightly.com and they’ll be happy to assist you."
+    }
+  },
+  {
+    "model": "emr.snippet",
+    "pk": 5,
+    "fields": {
+      "created_datetime": "2019-07-23T00:44:06.131335+00",
+      "last_modified_datetime": "2019-07-23T00:44:06.131335+00",
+      "name": "Continuing with lite",
+      "body": "Hi! I wanted to confirm with you that you want to continue with Glowgetter lite or would you like to move up to the full retinoid strength, which is the Glowgetter? It looks like you purchased Glowgetter lite again, but usually we start patients on a lower strength and then move them up to a higher strength so long as their skin is tolerating it well. Please let me know how your skin is doing on the lite and confirm which strength you would like. Thank you and have a great day!"
+    }
+  },
+  {
+    "model": "emr.snippet",
+    "pk": 6,
+    "fields": {
+      "created_datetime": "2019-07-23T00:44:06.131335+00",
+      "last_modified_datetime": "2019-07-23T00:44:06.131335+00",
+      "name": "repeat, new formula",
+      "body": "repeat pt needs new formula, not lite"
+    }
+  },
+  {
+    "model": "emr.snippet",
+    "pk": 7,
+    "fields": {
+      "created_datetime": "2019-07-23T00:44:06.131335+00",
+      "last_modified_datetime": "2019-07-23T00:44:06.131335+00",
+      "name": "pt message",
+      "body": "please respond to pt's message"
+    }
+  },
+  {
+    "model": "emr.snippet",
+    "pk": 8,
+    "fields": {
+      "created_datetime": "2019-07-23T00:44:06.131335+00",
+      "last_modified_datetime": "2019-07-23T00:44:06.131335+00",
+      "name": "Pregnancy note",
+      "body": "Please stop the medication if you become pregnant or start nursing. Also, while on the medication use an SPF 30 or greater and try to avoid the sun as much as possible. Have any new or changing moles checked annually by a dermatologist. Or right away if growing or bleeding."
+    }
+  },
+  {
+    "model": "emr.snippet",
+    "pk": 9,
+    "fields": {
+      "created_datetime": "2019-07-23T00:44:06.131335+00",
+      "last_modified_datetime": "2019-07-23T00:44:06.131335+00",
+      "name": "Nursing status",
+      "body": "Hi! We noticed your nursing status and wanted to let you know retinoid use is not recommended for pregnant and nursing women. We wanted to give you a heads up before the doctor performed your evaluation and you're charged the consultation fee. Let us know if you'd like us to cancel your order. We'll be here when you're ready! Thank you!"
+    }
+  },
+  {
+    "model": "emr.snippet",
+    "pk": 10,
+    "fields": {
+      "created_datetime": "2019-09-27 00:03:03Z",
+      "last_modified_datetime": "2019-09-27 00:03:03Z",
+      "name": "Prescription Submitted",
+      "body": "<p>Hey {first_name},</p><p>I've finished reviewing your skin and medical info, and have submitted your prescription. You will be receiving an email once the pharmacy ships your order.</p><p>I've put you on a strength of <strong>{current_tretinoin_strength}%</strong> tretinoin. Please refer to your <a href={treatment_url}>Treatment Plan</a> for more details about your formulation. If you are new to retinoids or are starting a higher strength, apply every third night, then gradually increase to nightly use as tolerated.</p><p>Retinoids may temporarily increase your sensitivity to the sun. Always wear SPF 30 or greater every day and reapply every 1-2 hours.  Unless otherwise instructed by your primary care physician, please stop the medication if you are nursing, trying to conceive, or become pregnant.</p><p>You can message the medical team directly anytime in this secure chat client. If you have questions about your account or order please reach out to Dear Brightly at support@dearbrightly.com.</p><p>Thank you!</p>"
+    }
+  },
+  {
+    "model": "emr.snippet",
+    "pk": 11,
+    "fields": {
+      "created_datetime": "2019-11-09 01:01:20.897817",
+      "last_modified_datetime": "2019-11-09 01:01:20.897817",
+      "name": "Patient Photo Retake Required",
+      "body": "Hi, I've started reviewing your visit, but before completing the visit I need you to update some photos. Please go to your Photos tab to update your photos. Thank you!"
+    }
+  },
+  {
+    "model": "emr.snippet",
+    "pk": 12,
+    "fields": {
+      "created_datetime": "2020-06-18 23:00:45.380637",
+      "last_modified_datetime": "2020-06-18 23:00:45.380637",
+      "name": "Prescription Submitted Rx Increase Male",
+      "body": "<p>Hey {first_name},</p><p>I've finished reviewing your skin and medical info, and have submitted your prescription. You will be receiving an email once the pharmacy ships your order.</p><p>I've started you off on a lower strength of <strong>{current_tretinoin_strength}%</strong> tretinoin in order for your skin to adjust to the retinoid. You should be receiving your highest strength of <strong>{upcoming_tretinoin_strength}%</strong> tretinoin in your subsequent orders. Please refer to your <a href={treatment_url}>Treatment Plan</a> for more details about your formulation. If you are new to retinoids or are starting a higher strength, apply every third night, then gradually increase to nightly use as tolerated.</p><p>Retinoids may temporarily increase your sensitivity to the sun. Always wear SPF 30 or greater every day and reapply every 1-2 hours.</p><p>You can message the medical team directly anytime in this secure chat client. If you have questions about your account or order please contact support@dearbrightly.com.</p><p>Thank you!</p>"
+    }
+  },
+  {
+    "model": "emr.snippet",
+    "pk": 13,
+    "fields": {
+      "created_datetime": "2020-06-18 23:00:45.380637",
+      "last_modified_datetime": "2020-06-18 23:00:45.380637",
+      "name": "Prescription Submitted Male",
+      "body": "<p>Hey {first_name},</p><p>I've finished reviewing your skin and medical info, and have submitted your prescription. You will be receiving an email once the pharmacy ships your order.</p><p>I've put you on a strength of <strong>{current_tretinoin_strength}%</strong> tretinoin. Please refer to your <a href={treatment_url}>Treatment Plan</a> for more details about your formulation. If you are new to retinoids or are starting a higher strength, apply every third night, then gradually increase to nightly use as tolerated.</p><p>Retinoids may temporarily increase your sensitivity to the sun. Always wear SPF 30 or greater every day and reapply every 1-2 hours.</p><p>You can message the medical team directly anytime in this secure chat client. If you have questions about your account or order please reach out to Dear Brightly at support@dearbrightly.com.</p><p>Thank you!</p>"
+    }
+  },
+  {
+    "model": "emr.snippet",
+    "pk": 14,
+    "fields": {
+      "created_datetime": "2020-06-18 23:00:45.380637",
+      "last_modified_datetime": "2020-06-18 23:00:45.380637",
+      "name": "Prescription Submitted Rx Increase",
+      "body": "<p>Hey {first_name},</p><p>I've finished reviewing your skin and medical info, and have submitted your prescription. You will be receiving an email once the pharmacy ships your order.</p><p>I've started you off on a lower strength of <strong>{current_tretinoin_strength}%</strong> tretinoin in order for your skin to adjust to the retinoid. You should be receiving your highest strength of <strong>{upcoming_tretinoin_strength}%</strong> tretinoin in your subsequent orders. Please refer to your <a href={treatment_url}>Treatment Plan</a> for more details about your formulation. If you are new to retinoids or are starting a higher strength, apply every third night, then gradually increase to nightly use as tolerated.</p><p>Retinoids may temporarily increase your sensitivity to the sun. Always wear SPF 30 or greater every day and reapply every 1-2 hours. Unless otherwise instructed by your primary care physician, please stop the medication if you are nursing, trying to conceive, or become pregnant.</p><p>You can message the medical team directly anytime in this secure chat client. If you have questions about your account or order please contact support@dearbrightly.com.</p><p>Thank you!</p>"
+    }
+  }
+]
+

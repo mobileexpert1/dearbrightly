@@ -1,0 +1,501 @@
+[
+  {
+    "model": "emr.questionnaireanswers",
+    "pk": 1,
+    "fields": {
+      "created_datetime": "2019-07-19T09:08:16.270008+00",
+      "last_modified_datetime": "2019-07-19T09:08:16.270008+00",
+      "uuid": "5f3992e8-24ff-4be5-8d6e-9fa30c224b9d",
+      "questionnaire_id": 509,
+      "patient_id": 4,
+      "answers": [
+        {
+          "value": "588",
+          "question_id": "266"
+        },
+        {
+          "value": "593",
+          "question_id": "270"
+        },
+        {
+          "value": "598",
+          "question_id": "271"
+        },
+        {
+          "value": "601",
+          "question_id": "272"
+        },
+        {
+          "value": "609",
+          "question_id": "273"
+        },
+        {
+          "value": "613",
+          "question_id": "275"
+        },
+        {
+          "value": "615",
+          "question_id": "277"
+        },
+        {
+          "value": "617",
+          "question_id": "279"
+        },
+        {
+          "value": "619",
+          "question_id": "282"
+        },
+        {
+          "value": "624",
+          "question_id": "284"
+        },
+        {
+          "value": "629",
+          "question_id": "286"
+        }
+      ]
+    }
+  },
+  {
+    "model": "emr.questionnaireanswers",
+    "pk": 2,
+    "fields": {
+      "created_datetime": "2019-07-19T09:08:16.270008+00",
+      "last_modified_datetime": "2019-07-19T09:08:16.270008+00",
+      "uuid": "c012464b-ddef-4dfb-a61a-38b1b4526540",
+      "questionnaire_id": 1,
+      "patient_id": 5,
+      "answers": [
+         {
+            "value":"2530",
+            "question_id":"1329"
+         },
+         {
+            "value":"2533",
+            "question_id":"1330"
+         },
+         {
+            "value":"2541",
+            "question_id":"1334"
+         },
+         {
+            "value":"2542",
+            "question_id":"1335"
+         },
+         {
+            "value":"2548",
+            "question_id":"1336"
+         },
+         {
+            "value":[
+               "2551",
+               "2554",
+               "2556",
+               "2559"
+            ],
+            "question_id":"1337"
+         },
+         {
+            "value":"Dark spots ",
+            "question_id":"1338"
+         },
+         {
+            "value":"2561",
+            "question_id":"1339"
+         },
+         {
+            "value":"2563",
+            "question_id":"1341"
+         },
+         {
+            "value":"2565",
+            "question_id":"1343"
+         },
+         {
+            "value":"2566",
+            "question_id":"1348"
+         },
+         {
+            "value":"Chemical peels once a month, vitamin c and sunscreen",
+            "question_id":"1349"
+         },
+         {
+            "value":"2575",
+            "question_id":"1350"
+         },
+         {
+            "value":"2577",
+            "question_id":"1352"
+         }
+      ]
+    }
+  },
+  {
+    "model": "emr.questionnaireanswers",
+    "pk": 3,
+    "fields": {
+      "created_datetime": "2017-07-19T09:08:16.270008+00",
+      "last_modified_datetime": "2017-07-19T09:08:16.270008+00",
+      "uuid": "5fbe8ccd-937e-4b8c-9f4a-e3296eababcd",
+      "questionnaire_id": 6,
+      "patient_id": 5,
+      "answers": [
+         {
+            "value":"2530",
+            "question_id":"1329"
+         },
+         {
+            "value":"2533",
+            "question_id":"1330"
+         },
+         {
+            "value":[
+
+            ],
+            "question_id":"1334"
+         },
+         {
+            "value":"2544",
+            "question_id":"1335"
+         },
+         {
+            "value":"2549",
+            "question_id":"1336"
+         },
+         {
+            "value":"2553",
+            "question_id":"1337"
+         },
+         {
+            "value":"2561",
+            "question_id":"1339"
+         },
+         {
+            "value":"2563",
+            "question_id":"1341"
+         },
+         {
+            "value":"2565",
+            "question_id":"1343"
+         },
+         {
+            "value":"2567",
+            "question_id":"1348"
+         },
+         {
+            "value":"2570",
+            "question_id":"1350"
+         },
+         {
+            "value":"2576",
+            "question_id":"1352"
+         },
+         {
+            "value":[
+
+            ],
+            "question_id":"1353"
+         },
+         {
+            "value":"2591",
+            "question_id":"1355"
+         }
+      ]
+    }
+  },
+  {
+    "model": "emr.questionnaireanswers",
+    "pk": 4,
+    "fields": {
+      "created_datetime": "2019-07-19T09:08:16.270008+00",
+      "last_modified_datetime": "2019-07-19T09:08:16.270008+00",
+      "uuid": "23b8d4d1-e28d-4264-a392-db3a0b58d095",
+      "questionnaire_id": 509,
+      "patient_id": 6,
+      "answers": [
+        {
+          "value": "588",
+          "question_id": "266"
+        },
+        {
+          "value": "593",
+          "question_id": "270"
+        },
+        {
+          "value": "598",
+          "question_id": "271"
+        },
+        {
+          "value": "601",
+          "question_id": "272"
+        },
+        {
+          "value": "609",
+          "question_id": "273"
+        },
+        {
+          "value": "613",
+          "question_id": "275"
+        },
+        {
+          "value": "615",
+          "question_id": "277"
+        },
+        {
+          "value": "617",
+          "question_id": "279"
+        },
+        {
+          "value": "619",
+          "question_id": "282"
+        },
+        {
+          "value": "624",
+          "question_id": "284"
+        },
+        {
+          "value": "629",
+          "question_id": "286"
+        }
+      ]
+    }
+  },
+  {
+    "model": "emr.questionnaireanswers",
+    "pk": 5,
+    "fields": {
+      "created_datetime": "2019-07-19T09:08:16.270008+00",
+      "last_modified_datetime": "2019-07-19T09:08:16.270008+00",
+      "uuid": "5c2a2b4c-0bf9-4c04-a2b1-808f0bf78d0d",
+      "questionnaire_id": 509,
+      "patient_id": 5,
+      "answers": [
+        {
+          "value": "588",
+          "question_id": "266"
+        },
+        {
+          "value": "593",
+          "question_id": "270"
+        },
+        {
+          "value": "598",
+          "question_id": "271"
+        },
+        {
+          "value": "601",
+          "question_id": "272"
+        },
+        {
+          "value": "609",
+          "question_id": "273"
+        },
+        {
+          "value": "613",
+          "question_id": "275"
+        },
+        {
+          "value": "615",
+          "question_id": "277"
+        },
+        {
+          "value": "617",
+          "question_id": "279"
+        },
+        {
+          "value": "619",
+          "question_id": "282"
+        },
+        {
+          "value": "624",
+          "question_id": "284"
+        },
+        {
+          "value": "629",
+          "question_id": "286"
+        }
+      ]
+    }
+  },
+  {
+    "model": "emr.questionnaireanswers",
+    "pk": 6,
+    "fields": {
+      "created_datetime": "2018-01-01T11:08:16.270008+00",
+      "last_modified_datetime": "2018-01-01T11:08:16.270008+00",
+      "uuid": "fb4d0aa5-65ff-477b-8a6a-ec3df4583263",
+      "questionnaire_id": 509,
+      "patient_id": 5,
+      "answers": [
+         {
+            "value":"2501",
+            "question_id":"1330"
+         },
+         {
+            "value":"2545",
+            "question_id":"1335"
+         },
+         {
+            "value":[
+
+            ],
+            "question_id":"1336"
+         },
+         {
+            "value":"2556",
+            "question_id":"1337"
+         },
+         {
+            "value":"2561",
+            "question_id":"1339"
+         },
+         {
+            "value":"2563",
+            "question_id":"1341"
+         },
+         {
+            "value":"2565",
+            "question_id":"1343"
+         },
+         {
+            "value":"2578",
+            "question_id":"1345"
+         },
+         {
+            "value":"test",
+            "question_id":"1346"
+         },
+         {
+            "value":[
+
+            ],
+            "question_id":"1348"
+         },
+         {
+            "value":"2570",
+            "question_id":"1350"
+         },
+         {
+            "value":[
+
+            ],
+            "question_id":"1352"
+         }
+      ]
+    }
+  },
+  {
+    "model": "emr.questionnaireanswers",
+    "pk": 7,
+    "fields": {
+      "created_datetime": "2019-07-19T09:08:16.270008+00",
+      "last_modified_datetime": "2019-07-19T09:08:16.270008+00",
+      "uuid": "7b8efae8-7ef9-4f6d-a79a-d16c1fc3320e",
+      "questionnaire_id": 509,
+      "patient_id": 8,
+      "answers": [
+        {
+          "value": "588",
+          "question_id": "266"
+        },
+        {
+          "value": "593",
+          "question_id": "270"
+        },
+        {
+          "value": "598",
+          "question_id": "271"
+        },
+        {
+          "value": "601",
+          "question_id": "272"
+        },
+        {
+          "value": "609",
+          "question_id": "273"
+        },
+        {
+          "value": "613",
+          "question_id": "275"
+        },
+        {
+          "value": "615",
+          "question_id": "277"
+        },
+        {
+          "value": "617",
+          "question_id": "279"
+        },
+        {
+          "value": "619",
+          "question_id": "282"
+        },
+        {
+          "value": "624",
+          "question_id": "284"
+        },
+        {
+          "value": "629",
+          "question_id": "286"
+        }
+      ]
+    }
+  },
+  {
+    "model": "emr.questionnaireanswers",
+    "pk": 8,
+    "fields": {
+      "created_datetime": "2017-08-01T09:08:16.270008+00",
+      "last_modified_datetime": "2017-08-01T09:08:16.270008+00",
+      "uuid": "6ecfd494-face-49d3-857d-4c0c5f2c9d80",
+      "questionnaire_id": 509,
+      "patient_id": 9,
+      "answers": [
+        {
+          "value": "588",
+          "question_id": "266"
+        },
+        {
+          "value": "593",
+          "question_id": "270"
+        },
+        {
+          "value": "598",
+          "question_id": "271"
+        },
+        {
+          "value": "601",
+          "question_id": "272"
+        },
+        {
+          "value": "609",
+          "question_id": "273"
+        },
+        {
+          "value": "613",
+          "question_id": "275"
+        },
+        {
+          "value": "615",
+          "question_id": "277"
+        },
+        {
+          "value": "617",
+          "question_id": "279"
+        },
+        {
+          "value": "619",
+          "question_id": "282"
+        },
+        {
+          "value": "624",
+          "question_id": "284"
+        },
+        {
+          "value": "629",
+          "question_id": "286"
+        }
+      ]
+    }
+  }
+]

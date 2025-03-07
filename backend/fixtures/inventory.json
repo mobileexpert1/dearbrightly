@@ -1,0 +1,142 @@
+[
+  {
+    "model": "orders.inventory",
+    "pk": 1,
+    "fields": {
+      "type": "bottle",
+      "bottle_type": "refillable bottle",
+      "starting_order_number": null,
+      "start_datetime": null,
+      "name": "refillable bottle",
+      "quantity": 0,
+      "created_datetime": "2021-04-06 23:02:56.48316",
+      "product": 11
+    }
+  },
+  {
+    "model": "orders.inventory",
+    "pk": 2,
+    "fields": {
+      "type": "bottle",
+      "bottle_type": "refillable bottle",
+      "starting_order_number": null,
+      "start_datetime": null,
+      "name": "refillable bottle",
+      "quantity": 0,
+      "created_datetime": "2021-04-06 23:02:56.48316",
+      "product": 9
+    }
+  },
+  {
+    "model": "orders.inventory",
+    "pk": 3,
+    "fields": {
+      "type": "bottle",
+      "bottle_type": "refill",
+      "starting_order_number": null,
+      "start_datetime": null,
+      "name": "refill",
+      "quantity": 0,
+      "created_datetime": "2021-04-06 23:02:56.48316",
+      "product": 9
+    }
+  },
+  {
+    "model": "orders.inventory",
+    "pk": 4,
+    "fields": {
+      "type": "packaging",
+      "bottle_type": null,
+      "starting_order_number": null,
+      "start_datetime": null,
+      "name": "eco-enclosed bio-degradable mailer",
+      "quantity": 0,
+      "created_datetime": "2021-04-06 23:02:56.48316",
+      "product": null
+    }
+  },
+  {
+    "model": "orders.inventory",
+    "pk": 5,
+    "fields": {
+      "type": "pamphlet",
+      "bottle_type": "refill",
+      "starting_order_number": null,
+      "start_datetime": null,
+      "name": "refill instruction card",
+      "quantity": 0,
+      "created_datetime": "2021-04-06 23:02:56.48316",
+      "product": null
+    }
+  },
+  {
+    "model": "orders.inventory",
+    "pk": 6,
+    "fields": {
+      "type": "packaging",
+      "bottle_type": null,
+      "starting_order_number": null,
+      "start_datetime": null,
+      "name": "GreenWrap void fill",
+      "quantity": 0,
+      "created_datetime": "2021-04-06 23:02:56.48316",
+      "product": null
+    }
+  },
+  {
+    "model": "orders.inventory",
+    "pk": 7,
+    "fields": {
+      "type": "pamphlet",
+      "bottle_type": null,
+      "starting_order_number": null,
+      "start_datetime": null,
+      "name": "night shift pamphlet",
+      "quantity": 0,
+      "created_datetime": "2021-04-06 23:02:56.48316",
+      "product": 11
+    }
+  },
+  {
+    "model": "orders.inventory",
+    "pk": 8,
+    "fields": {
+      "type": "packaging",
+      "bottle_type": "refillable bottle",
+      "starting_order_number": null,
+      "start_datetime": null,
+      "name": "rainbow label",
+      "quantity": 0,
+      "created_datetime": "2021-04-06 23:02:56.48316",
+      "product": null
+    }
+  },
+  {
+    "model": "orders.inventory",
+    "pk": 9,
+    "fields": {
+      "type": "packaging",
+      "bottle_type": "refillable bottle",
+      "starting_order_number": null,
+      "start_datetime": null,
+      "name": "paper tube packaging for refillable glass bottles",
+      "quantity": 0,
+      "created_datetime": "2021-04-06 23:02:56.48316",
+      "product": null
+    }
+  },
+  {
+    "model": "orders.inventory",
+    "pk": 10,
+    "fields": {
+      "type": "product",
+      "bottle_type": null,
+      "starting_order_number": null,
+      "start_datetime": null,
+      "name": "moisturizer",
+      "quantity": 0,
+      "created_datetime": "2021-04-06 23:02:56.48316",
+      "product": 1
+    }
+  }
+]

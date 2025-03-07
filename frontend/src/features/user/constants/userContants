@@ -1,0 +1,2 @@
+export const MINIMUM_AGE = 18;
+export const MAXIMUM_AGE = 100; // need an upper limit to prevent users entering an invalid year, like 1888

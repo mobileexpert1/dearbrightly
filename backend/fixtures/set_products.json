@@ -1,0 +1,165 @@
+[
+    {
+    "model": "products.setproduct",
+    "pk": 1,
+    "fields": {
+      "product_in_set": 1,
+      "set_product": 5
+    }
+  },
+  {
+    "model": "products.setproduct",
+    "pk": 2,
+    "fields": {
+      "product_in_set": 4,
+      "set_product": 5
+    }
+  },
+  {
+    "model": "products.setproduct",
+    "pk": 3,
+    "fields": {
+      "product_in_set": 1,
+      "set_product": 3
+    }
+  },
+  {
+    "model": "products.setproduct",
+    "pk": 4,
+    "fields": {
+      "product_in_set": 2,
+      "set_product": 3
+    }
+  },
+  {
+    "model": "products.setproduct",
+    "pk": 5,
+    "fields": {
+      "product_in_set": 1,
+      "set_product": 10
+    }
+  },
+  {
+    "model": "products.setproduct",
+    "pk": 6,
+    "fields": {
+      "product_in_set": 9,
+      "set_product": 10
+    }
+  },
+
+  {
+    "model": "products.setproduct",
+    "pk": 7,
+    "fields": {
+      "product_in_set": 1,
+      "set_product": 12
+    }
+  },
+  {
+    "model": "products.setproduct",
+    "pk": 8,
+    "fields": {
+      "product_in_set": 11,
+      "set_product": 12
+    }
+  },
+  {
+    "model": "products.setproduct",
+    "pk": 9,
+    "fields": {
+      "product_in_set": 11,
+      "set_product": 18
+    }
+  },
+  {
+    "model": "products.setproduct",
+    "pk": 10,
+    "fields": {
+      "product_in_set": 16,
+      "set_product": 18
+    }
+  },
+  {
+    "model": "products.setproduct",
+    "pk": 11,
+    "fields": {
+      "product_in_set": 9,
+      "set_product": 19
+    }
+  },
+  {
+    "model": "products.setproduct",
+    "pk": 12,
+    "fields": {
+      "product_in_set": 16,
+      "set_product": 19
+    }
+  },
+
+  {
+    "model": "products.setproduct",
+    "pk": 13,
+    "fields": {
+      "product_in_set": 11,
+      "set_product": 20
+    }
+  },
+  {
+    "model": "products.setproduct",
+    "pk": 14,
+    "fields": {
+      "product_in_set": 24,
+      "set_product": 20
+    }
+  },
+  {
+    "model": "products.setproduct",
+    "pk": 15,
+    "fields": {
+      "product_in_set": 9,
+      "set_product": 21
+    }
+  },
+  {
+    "model": "products.setproduct",
+    "pk": 16,
+    "fields": {
+      "product_in_set": 25,
+      "set_product": 21
+    }
+  },
+  {
+    "model": "products.setproduct",
+    "pk": 17,
+    "fields": {
+      "product_in_set": 31,
+      "set_product": 32
+    }
+  },
+  {
+    "model": "products.setproduct",
+    "pk": 18,
+    "fields": {
+      "product_in_set": 24,
+      "set_product": 32
+    }
+  },
+
+  {
+    "model": "products.setproduct",
+    "pk": 19,
+    "fields": {
+      "product_in_set": 33,
+      "set_product": 34
+    }
+  },
+  {
+    "model": "products.setproduct",
+    "pk": 20,
+    "fields": {
+      "product_in_set": 25,
+      "set_product": 34
+    }
+  }
+]

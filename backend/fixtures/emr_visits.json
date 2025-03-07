@@ -1,0 +1,178 @@
+[
+  {
+    "model": "emr.visit",
+    "pk": 1,
+    "fields": {
+      "uuid": "aa81df15-482d-445e-849f-8aedd7c3987a",
+      "created_datetime": "2021-04-19 18:52:23.739857+00",
+      "last_modified_datetime": "2021-04-19 18:52:23.739857+00",
+      "patient_id": 4,
+      "questionnaire_id": 509,
+      "questionnaire_answers_id": 1,
+      "medical_provider_id": 2,
+      "service": "Initial Visit",
+      "status": "Provider Rx Submitted",
+      "skin_profile_status": "Complete"
+    }
+  },
+  {
+    "model": "emr.visit",
+    "pk": 2,
+    "fields": {
+      "uuid": "ded778ad-6fb9-4691-acd0-71020f43b045",
+      "created_datetime": "2019-07-19T09:08:16.270008+00",
+      "last_modified_datetime": "2019-07-19T09:08:16.270008+00",
+      "patient_id": 5,
+      "questionnaire_id": 1,
+      "questionnaire_answers_id": 2,
+      "medical_provider_id": 2,
+      "service": "Initial Visit",
+      "status": "Provider Rx Submitted",
+      "skin_profile_status": "Complete"
+    }
+  },
+  {
+    "model": "emr.visit",
+    "pk": 3,
+    "fields": {
+      "uuid": "3722f114-a314-44f7-bd05-11ccedd1fdf5",
+      "created_datetime": "2021-04-19 18:52:23.739857+00",
+      "last_modified_datetime": "2021-04-19 18:52:23.739857+00",
+      "patient_id": 5,
+      "questionnaire_id": 6,
+      "questionnaire_answers_id": null,
+      "medical_provider_id": 2,
+      "service": "Repeat Visit",
+      "status": "Skin Profile Pending",
+      "skin_profile_status": "Pending Questionnaire"
+    }
+  },
+  {
+    "model": "emr.visit",
+    "pk": 4,
+    "fields": {
+      "uuid": "dee778ad-6fb9-4691-acd0-71020f43b045",
+      "created_datetime": "2019-07-19T09:08:16.270008+00",
+      "last_modified_datetime": "2019-07-19T09:08:16.270008+00",
+      "patient_id": 6,
+      "questionnaire_id": 1,
+      "questionnaire_answers_id": 4,
+      "medical_provider_id": 2,
+      "service": "Initial Visit",
+      "status": "Provider Rx Submitted",
+      "skin_profile_status": "Complete"
+    }
+  },
+  {
+    "model": "emr.visit",
+    "pk": 5,
+    "fields": {
+      "uuid": "3dd54713-defc-48d7-bd75-7209a492bb19",
+      "created_datetime": "2021-04-19 18:52:23.739857+00",
+      "last_modified_datetime": "2021-04-19 18:52:23.739857+00",
+      "patient_id": 7,
+      "questionnaire_id": 509,
+      "questionnaire_answers_id": 5,
+      "medical_provider_id": 2,
+      "service": "Initial Visit",
+      "status": "Provider Pending Action",
+      "skin_profile_status": "Complete"
+    }
+  },
+  {
+    "model": "emr.visit",
+    "pk": 6,
+    "fields": {
+      "uuid": "151b641d-3ade-4b77-b479-78045790dab2",
+      "created_datetime": "2019-01-01T11:08:16.270008+00",
+      "last_modified_datetime": "2019-01-01T11:08:16.270008+00",
+      "patient_id": 8,
+      "questionnaire_id": 509,
+      "questionnaire_answers_id": 7,
+      "medical_provider_id": 2,
+      "service": "Initial Visit",
+      "status": "Provider Rx Submitted",
+      "skin_profile_status": "Complete"
+    }
+  },
+  {
+    "model": "emr.visit",
+    "pk": 7,
+    "fields": {
+      "uuid": "831a0bad-ddc5-4785-a55c-abd9fdcee989",
+      "created_datetime": "2021-04-19 18:52:23.739857+00",
+      "last_modified_datetime": "2021-04-19 18:52:23.739857+00",
+      "patient_id": 8,
+      "questionnaire_id": 4,
+      "questionnaire_answers_id": 6,
+      "medical_provider_id": 2,
+      "service": "Short Repeat Visit Male",
+      "status": "Provider Pending Action",
+      "skin_profile_status": "Complete"
+    }
+  },
+  {
+    "model": "emr.visit",
+    "pk": 8,
+    "fields": {
+      "uuid": "4a77e6c3-78bb-41a4-b8a0-d8b6ef4a0cee",
+      "created_datetime": "2021-04-19 18:52:23.739857+00",
+      "last_modified_datetime": "2021-04-19 18:52:23.739857+00",
+      "patient_id": 9,
+      "questionnaire_id": 509,
+      "questionnaire_answers_id": 8,
+      "medical_provider_id": 2,
+      "service": "Initial Visit",
+      "status": "Provider Pending Action",
+      "skin_profile_status": "Complete"
+    }
+  },
+  {
+    "model": "emr.visit",
+    "pk": 9,
+    "fields": {
+      "uuid": "5a77e6c3-78bb-41a4-b8a0-d8b6ef4a0cee",
+      "created_datetime": "2021-04-19 18:52:23.739857+00",
+      "last_modified_datetime": "2021-04-19 18:52:23.739857+00",
+      "patient_id": 10,
+      "questionnaire_id": 509,
+      "questionnaire_answers_id": 8,
+      "medical_provider_id": 2,
+      "service": "Initial Visit",
+      "status": "Skin Profile Complete",
+      "skin_profile_status": "Complete"
+    }
+  },
+  {
+    "model": "emr.visit",
+    "pk": 10,
+    "fields": {
+      "uuid": "6a77e6c3-78bb-41a4-b8a0-d8b6ef4a0cee",
+      "created_datetime": "2021-04-19 18:52:23.739857+00",
+      "last_modified_datetime": "2021-04-19 18:52:23.739857+00",
+      "patient_id": 10,
+      "questionnaire_id": 509,
+      "questionnaire_answers_id": 8,
+      "medical_provider_id": 2,
+      "service": "Initial Visit",
+      "status": "Provider Rx Submitted",
+      "skin_profile_status": "Complete"
+    }
+  },
+  {
+    "model": "emr.visit",
+    "pk": 11,
+    "fields": {
+      "uuid": "8a77e6c3-78bb-41a4-b8a0-d8b6ef4a0cee",
+      "created_datetime": "2021-04-19 18:52:23.739857+00",
+      "last_modified_datetime": "2021-04-19 18:52:23.739857+00",
+      "patient_id": 12,
+      "questionnaire_id": null,
+      "questionnaire_answers_id": 8,
+      "medical_provider_id": 2,
+      "service": "Initial Visit",
+      "status": "Skin Profile Pending",
+      "skin_profile_status": "Pending Questionnaire"
+    }
+  }
+]

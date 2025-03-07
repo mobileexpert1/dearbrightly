@@ -1,0 +1,19 @@
+{
+  "presets": ["es2015", "react"],
+  "plugins": [
+    ["syntax-dynamic-import"],
+    "relay",
+    ["emotion", { "hoist": true }],
+    "transform-class-properties",
+    "transform-object-rest-spread",
+    [
+      "transform-imports",
+      {
+        "reactstrap": {
+          "transform": "reactstrap/lib/${member}",
+          "preventFullImport": true
+        }
+      }
+    ]
+  ]
+}

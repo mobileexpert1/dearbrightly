@@ -1,0 +1,100 @@
+version: '3.2'
+
+services:
+  frontend:
+    build:
+      dockerfile: ./frontend/Dockerfile
+      context: .
+      args:
+        - BACKEND_SCHEME=$BACKEND_SCHEME
+        - BACKEND_HOST=$BACKEND_HOST
+        - BACKEND_PORT=$BACKEND_PORT
+        - DEBUG=$DEBUG
+        - STRIPE_KEY_PUBLISHABLE=$STRIPE_KEY_PUBLISHABLE
+        - STRIPE_CLIENT_ID=$STRIPE_CLIENT_ID
+        - FACEBOOK_APP_ID=$FACEBOOK_APP_ID
+        - FACEBOOK_PIXEL_ID=$FACEBOOK_PIXEL_ID
+        - FACEBOOK_API_VERSION=$FACEBOOK_API_VERSION
+        - OPTIMIZELY_PROJECT_ID=$OPTIMIZELY_PROJECT_ID
+        - GOOGLE_PLACES_API_KEY=$GOOGLE_PLACES_API_KEY
+        - GOOGLE_TAG_MANAGER_ID=$GOOGLE_TAG_MANAGER_ID
+        - GOOGLE_TAG_MANAGER_DEV_PARAMS=$GOOGLE_TAG_MANAGER_DEV_PARAMS
+        - KLAVIYO_PUBLIC_API_TOKEN=$KLAVIYO_PUBLIC_API_TOKEN
+        - MANUAL_TEST_MODE=$MANUAL_TEST_MODE
+
+    restart: always
+    env_file:
+      - ./.env
+    container_name: frontend
+    volumes:
+      - schema-files:/frontend/schema
+
+  backend:
+    build: ./backend
+    command: bash -c "chmod +x wait_for_databases.sh
+      && ./wait_for_databases.sh
+      && python manage.py collectstatic --noinput
+      && python manage.py migrate
+      && python manage.py graphql_schema
+      && uwsgi dearbrightly.ini"
+    restart: always
+    env_file:
+      - ./.env
+    container_name: backend
+    depends_on:
+      - postgres
+    volumes:
+      - static-files:/backend/static-files
+      - media-files:/backend/media
+      - schema-files:/backend/schema
+
+  celery:
+    build: ./backend
+    command: celery -A dearbrightly worker -l INFO
+    env_file:
+      - ./.env
+    container_name: celery
+    volumes:
+      - static-files:/backend/static-files
+      - media-files:/backend/media
+      - schema-files:/backend/schema
+    depends_on:
+      - backend
+      - redis
+    restart: always
+
+  redis:
+    image: redis:alpine
+    container_name: redis
+    restart: always
+
+  nginx:
+    build:
+      context: ./nginx
+      args:
+        - nginx_file=nginx.staging.conf
+    ports:
+     - ${NGINX_PORTS}
+    restart: always
+    container_name: nginx
+    depends_on:
+      - backend
+      - frontend
+    volumes:
+      - static-files:/static-files
+      - media-files:/media
+
+  postgres:
+    image: postgres:10
+    restart: always
+    env_file:
+      - ./.env
+    container_name: postgres
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
+volumes:
+  static-files:
+  db-data:
+  media-files:
+  schema-files:

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render black button correctly 1`] = `
+<div
+  className="black-button"
+  onClick={[Function]}
+>
+  Create
+</div>
+`;
+
+exports[`Button should render clear button correctly 1`] = `
+<div
+  className="clear-button"
+  onClick={[Function]}
+>
+  Create
+</div>
+`;
+
+exports[`Button should render default button correctly 1`] = `
+<div
+  className="black-button"
+  onClick={[Function]}
+>
+  Create
+</div>
+`;

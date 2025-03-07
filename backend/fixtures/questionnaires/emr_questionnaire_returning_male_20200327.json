@@ -1,0 +1,930 @@
+[
+    {
+        "model": "emr.questionnaire",
+        "pk": 4,
+        "fields": {
+            "version": 20200327,
+            "name": "Anti-aging Wrinkle Reduction and Skin Tone",
+            "description": "We can evaluate to see if you have acne and start or refill treatment to reduce blemishes and prevent future acne from occurring.",
+            "created_datetime": "2020-03-27 17:22:36Z",
+            "service": "Short Repeat Visit Male",
+            "question_ids": 13,
+            "questions": [
+               {
+                    "id": 1339,
+                    "code": null,
+                    "type": "radio",
+                    "title": "Do you currently take any prescription medication?",
+                    "choices": [
+                        {
+                            "id": 2560,
+                            "hint": null,
+                            "label": "Yes",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        },
+                        {
+                            "id": 2561,
+                            "hint": null,
+                            "label": "No",
+                            "silent": 1,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        }
+                    ],
+                    "children": [
+                        {
+                            "id": 1340,
+                            "code": null,
+                            "type": "textarea",
+                            "title": "What medications are you taking?",
+                            "choices": [],
+                            "trigger": {
+                                "id": 823,
+                                "qnr_choice_id": 2560,
+                                "child_question_id": 1340,
+                                "parent_question_id": 1339
+                            },
+                            "children": [],
+                            "priority": null,
+                            "description": null,
+                            "placeholder": null,
+                            "validations": {
+                                "id": 1340,
+                                "max": null,
+                                "min": null,
+                                "pattern": null,
+                                "required": 1,
+                                "maxlength": null,
+                                "minlength": null,
+                                "qnr_question_id": 1340
+                            },
+                            "questionnaire_id": 3
+                        }
+                    ],
+                    "priority": null,
+                    "description": "Include any topicals, orals, or injectables.",
+                    "placeholder": null,
+                    "validations": {
+                        "id": 1339,
+                        "max": null,
+                        "min": null,
+                        "pattern": null,
+                        "required": 1,
+                        "maxlength": null,
+                        "minlength": null,
+                        "qnr_question_id": 1339
+                    },
+                    "questionnaire_id": 3
+                },
+                {
+                    "id": 1330,
+                    "code": null,
+                    "type": "radio",
+                    "title": "Do you currently take any herbals or supplements?",
+                    "choices": [
+                        {
+                            "id": 2500,
+                            "hint": null,
+                            "label": "Yes",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        },
+                        {
+                            "id": 2501,
+                            "hint": null,
+                            "label": "No",
+                            "silent": 1,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        }
+                    ],
+                    "children": [
+                        {
+                            "id": 1331,
+                            "code": null,
+                            "type": "textarea",
+                            "title": "Please include any over-the-counter and prescription medicines you've finished recently, including topical medicines and any injections, vitamins, or herbal remedies.",
+                            "choices": [],
+                            "trigger": {
+                                "id": 820,
+                                "qnr_choice_id": 2500,
+                                "child_question_id": 1331,
+                                "parent_question_id": 1330
+                            },
+                            "children": [],
+                            "priority": null,
+                            "description": null,
+                            "placeholder": null,
+                            "validations": {
+                                "id": 1331,
+                                "max": null,
+                                "min": null,
+                                "pattern": null,
+                                "required": 1,
+                                "maxlength": null,
+                                "minlength": null,
+                                "qnr_question_id": 1331
+                            },
+                            "questionnaire_id": 3
+                        }
+                    ],
+                    "priority": null,
+                    "description": null,
+                    "placeholder": null,
+                    "validations": {
+                        "id": 1330,
+                        "max": null,
+                        "min": null,
+                        "pattern": null,
+                        "required": 1,
+                        "maxlength": null,
+                        "minlength": null,
+                        "qnr_question_id": 1330
+                    },
+                    "questionnaire_id": 3
+                },
+                {
+                    "id": 1341,
+                    "code": null,
+                    "type": "radio",
+                    "title": "Do you have any allergies or reactions to medication?",
+                    "choices": [
+                        {
+                            "id": 2562,
+                            "hint": null,
+                            "label": "Yes",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        },
+                        {
+                            "id": 2563,
+                            "hint": null,
+                            "label": "No",
+                            "silent": 1,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        }
+                    ],
+                    "children": [
+                        {
+                            "id": 1342,
+                            "code": null,
+                            "type": "textarea",
+                            "title": "What allergies or reactions to medication do you have?",
+                            "choices": [],
+                            "trigger": {
+                                "id": 824,
+                                "qnr_choice_id": 2562,
+                                "child_question_id": 1342,
+                                "parent_question_id": 1341
+                            },
+                            "children": [],
+                            "priority": null,
+                            "description": null,
+                            "placeholder": null,
+                            "validations": {
+                                "id": 1342,
+                                "max": null,
+                                "min": null,
+                                "pattern": null,
+                                "required": 1,
+                                "maxlength": null,
+                                "minlength": null,
+                                "qnr_question_id": 1342
+                            },
+                            "questionnaire_id": 3
+                        }
+                    ],
+                    "priority": null,
+                    "description": "Please include even minor reactions or allergies.",
+                    "placeholder": null,
+                    "validations": {
+                        "id": 1341,
+                        "max": null,
+                        "min": null,
+                        "pattern": null,
+                        "required": 1,
+                        "maxlength": null,
+                        "minlength": null,
+                        "qnr_question_id": 1341
+                    },
+                    "questionnaire_id": 3
+                },
+                {
+                    "id": 1350,
+                    "code": null,
+                    "type": "checkbox",
+                    "title": "Do you currently have any medical conditions?",
+                    "choices": [
+                        {
+                            "id": 2568,
+                            "hint": null,
+                            "label": "Kidney problems",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        },
+                        {
+                            "id": 2569,
+                            "hint": null,
+                            "label": "Liver problems",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        },
+                        {
+                            "id": 2570,
+                            "hint": null,
+                            "label": "Melasma",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        },
+                        {
+                            "id": 2571,
+                            "hint": null,
+                            "label": "Peri-orbital or peri-oral dermatitis",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        },
+                        {
+                            "id": 2572,
+                            "hint": null,
+                            "label": "Severe eczema or psoriasis",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        },
+                        {
+                            "id": 2573,
+                            "hint": null,
+                            "label": "Skin cancer",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        },
+                        {
+                            "id": 2574,
+                            "hint": null,
+                            "label": "Other",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        },
+                        {
+                            "id": 2575,
+                            "hint": null,
+                            "label": "No",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 1,
+                            "description": null,
+                            "warning_level": 0
+                        }
+                    ],
+                    "children": [
+                        {
+                            "id": 1351,
+                            "code": null,
+                            "type": "text",
+                            "title": "Please include even any minor or recent conditions or symptoms. The medical provider needs to know your full history to give you the best care.",
+                            "choices": [],
+                            "trigger": {
+                                "id": 828,
+                                "qnr_choice_id": 2574,
+                                "child_question_id": 1351,
+                                "parent_question_id": 1350
+                            },
+                            "children": [],
+                            "priority": null,
+                            "description": null,
+                            "placeholder": null,
+                            "validations": {
+                                "id": 1351,
+                                "max": null,
+                                "min": null,
+                                "pattern": null,
+                                "required": 1,
+                                "maxlength": null,
+                                "minlength": null,
+                                "qnr_question_id": 1351
+                            },
+                            "questionnaire_id": 3
+                        }
+                    ],
+                    "priority": null,
+                    "description": "If you have any medical conditions not listed, please select 'Other' and list them. Certain conditions can complicate diagnosis, increase risks, or change the recommended treatments so it is critical the medical provider knows your full history.",
+                    "placeholder": null,
+                    "validations": {
+                        "id": 1350,
+                        "max": null,
+                        "min": null,
+                        "pattern": null,
+                        "required": 1,
+                        "maxlength": null,
+                        "minlength": null,
+                        "qnr_question_id": 1350
+                    },
+                    "questionnaire_id": 3
+                },
+                {
+                    "id": 1343,
+                    "code": null,
+                    "type": "radio",
+                    "title": "Have you experienced any side effects related to your most recent formula?",
+                    "choices": [
+                        {
+                            "id": 2564,
+                            "hint": null,
+                            "label": "Yes",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        },
+                        {
+                            "id": 2565,
+                            "hint": null,
+                            "label": "No",
+                            "silent": 1,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        }
+                    ],
+                    "children": [
+                        {
+                            "id": 1344,
+                            "code": null,
+                            "type": "textarea",
+                            "title": "Please describe the side effects.",
+                            "choices": [],
+                            "trigger": {
+                                "id": 825,
+                                "qnr_choice_id": 2564,
+                                "child_question_id": 1344,
+                                "parent_question_id": 1343
+                            },
+                            "children": [],
+                            "priority": null,
+                            "description": null,
+                            "placeholder": null,
+                            "validations": {
+                                "id": 1344,
+                                "max": null,
+                                "min": null,
+                                "pattern": null,
+                                "required": 1,
+                                "maxlength": null,
+                                "minlength": null,
+                                "qnr_question_id": 1344
+                            },
+                            "questionnaire_id": 3
+                        }
+                    ],
+                    "priority": null,
+                    "description": "For example, dryness, redness, irritation, acne, etc.",
+                    "placeholder": null,
+                    "validations": {
+                        "id": 1343,
+                        "max": null,
+                        "min": null,
+                        "pattern": null,
+                        "required": 1,
+                        "maxlength": null,
+                        "minlength": null,
+                        "qnr_question_id": 1343
+                    },
+                    "questionnaire_id": 3
+                },
+                {
+                    "id": 1345,
+                    "code": null,
+                    "type": "radio",
+                    "title": "Have there been any changes to your skin that you are concerned about?",
+                    "choices": [
+                        {
+                            "id": 2578,
+                            "hint": null,
+                            "label": "Yes",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        },
+                        {
+                            "id": 2579,
+                            "hint": null,
+                            "label": "No",
+                            "silent": 1,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        }
+                    ],
+                    "children": [
+                        {
+                            "id": 1346,
+                            "code": null,
+                            "type": "textarea",
+                            "title": "Please describe changes to your skin.",
+                            "choices": [],
+                            "trigger": {
+                                "id": 828,
+                                "qnr_choice_id": 2578,
+                                "child_question_id": 1346,
+                                "parent_question_id": 1345
+                            },
+                            "children": [],
+                            "priority": null,
+                            "description": null,
+                            "placeholder": null,
+                            "validations": {
+                                "id": 1346,
+                                "max": null,
+                                "min": null,
+                                "pattern": null,
+                                "required": 1,
+                                "maxlength": null,
+                                "minlength": null,
+                                "qnr_question_id": 1346
+                            },
+                            "questionnaire_id": 3
+                        }
+                    ],
+                    "priority": null,
+                    "description": "For example, texture, spots, growths, etc.",
+                    "placeholder": null,
+                    "validations": {
+                        "id": 1345,
+                        "max": null,
+                        "min": null,
+                        "pattern": null,
+                        "required": 1,
+                        "maxlength": null,
+                        "minlength": null,
+                        "qnr_question_id": 1345
+                    },
+                    "questionnaire_id": 3
+                },
+                {
+                    "id": 1335,
+                    "code": null,
+                    "type": "radio",
+                    "title": "How would you characterize your skin?",
+                    "choices": [
+                        {
+                            "id": 2542,
+                            "hint": null,
+                            "label": "Combination (oily skin along the T-zone, dryer skin around the cheeks, some blackheads, enlarged pores around the T-Zone)",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        },
+                        {
+                            "id": 2543,
+                            "hint": null,
+                            "label": "Dry (dull complexion, flaky skin, fine pores)",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        },
+                        {
+                            "id": 2544,
+                            "hint": null,
+                            "label": "Normal (fine pores, smooth texture, no blemishes)",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        },
+                        {
+                            "id": 2545,
+                            "hint": null,
+                            "label": "Oily (enlarged pores, shiny complexion, blackheads, whiteheads, acne, blemishes)",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        },
+                        {
+                            "id": 2546,
+                            "hint": null,
+                            "label": "Sensitive (prone to itching and irritation; symptoms include redness, dryness, scaling, bumps)",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        }
+                    ],
+                    "children": [],
+                    "priority": null,
+                    "description": null,
+                    "placeholder": null,
+                    "validations": {
+                        "id": 1335,
+                        "max": null,
+                        "min": null,
+                        "pattern": null,
+                        "required": 0,
+                        "maxlength": null,
+                        "minlength": null,
+                        "qnr_question_id": 1335
+                    },
+                    "questionnaire_id": 3
+                },
+                {
+                    "id": 1336,
+                    "code": null,
+                    "type": "radio",
+                    "title": "What kind of climate do you live in?",
+                    "choices": [
+                        {
+                            "id": 2547,
+                            "hint": null,
+                            "label": "Dry",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        },
+                        {
+                            "id": 2548,
+                            "hint": null,
+                            "label": "Temperate",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        },
+                        {
+                            "id": 2549,
+                            "hint": null,
+                            "label": "Humid",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        }
+                    ],
+                    "children": [],
+                    "priority": null,
+                    "description": null,
+                    "placeholder": null,
+                    "validations": {
+                        "id": 1336,
+                        "max": null,
+                        "min": null,
+                        "pattern": null,
+                        "required": 0,
+                        "maxlength": null,
+                        "minlength": null,
+                        "qnr_question_id": 1336
+                    },
+                    "questionnaire_id": 3
+                },
+                {
+                    "id": 1337,
+                    "code": null,
+                    "type": "checkbox",
+                    "title": "Do you have any concerns with your skin?",
+                    "choices": [
+                        {
+                            "id": 2550,
+                            "hint": null,
+                            "label": "Appears shiny in photos",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        },
+                        {
+                            "id": 2551,
+                            "hint": null,
+                            "label": "Large pores",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        },
+                        {
+                            "id": 2552,
+                            "hint": null,
+                            "label": "Blackheads/Whiteheads",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        },
+                        {
+                            "id": 2553,
+                            "hint": null,
+                            "label": "Fine lines",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        },
+                        {
+                            "id": 2554,
+                            "hint": null,
+                            "label": "Pigmentation/Uneven skin tone",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        },
+                        {
+                            "id": 2555,
+                            "hint": null,
+                            "label": "Rough skin",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        },
+                        {
+                            "id": 2556,
+                            "hint": null,
+                            "label": "Acne",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        },
+                        {
+                            "id": 2557,
+                            "hint": null,
+                            "label": "Facial redness",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        },
+                        {
+                            "id": 2558,
+                            "hint": null,
+                            "label": "Nothing to note",
+                            "silent": 1,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        },
+                        {
+                            "id": 2559,
+                            "hint": null,
+                            "label": "Other",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        }
+                    ],
+                    "children": [
+                        {
+                            "id": 1338,
+                            "code": null,
+                            "type": "text",
+                            "title": "Tell us more about your skin concerns.",
+                            "choices": [],
+                            "trigger": {
+                                "id": 822,
+                                "qnr_choice_id": 2559,
+                                "child_question_id": 1338,
+                                "parent_question_id": 1337
+                            },
+                            "children": [],
+                            "priority": null,
+                            "description": null,
+                            "placeholder": null,
+                            "validations": {
+                                "id": 1338,
+                                "max": null,
+                                "min": null,
+                                "pattern": null,
+                                "required": 1,
+                                "maxlength": null,
+                                "minlength": null,
+                                "qnr_question_id": 1338
+                            },
+                            "questionnaire_id": 3
+                        }
+                    ],
+                    "priority": null,
+                    "description": "Check all that apply.",
+                    "placeholder": null,
+                    "validations": {
+                        "id": 1337,
+                        "max": null,
+                        "min": null,
+                        "pattern": null,
+                        "required": 0,
+                        "maxlength": null,
+                        "minlength": null,
+                        "qnr_question_id": 1337
+                    },
+                    "questionnaire_id": 3
+                },
+                {
+                    "id": 1348,
+                    "code": null,
+                    "type": "radio",
+                    "title": "Are you currently using over-the-counter topicals in your skincare regimen?",
+                    "choices": [
+                        {
+                            "id": 2566,
+                            "hint": null,
+                            "label": "Yes",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        },
+                        {
+                            "id": 2567,
+                            "hint": null,
+                            "label": "No",
+                            "silent": 1,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        }
+                    ],
+                    "children": [
+                        {
+                            "id": 1349,
+                            "code": null,
+                            "type": "textarea",
+                            "title": "For example, Vitamin C serum, sunscreen, chemical peel, or benzoyl peroxide.",
+                            "choices": [],
+                            "trigger": {
+                                "id": 827,
+                                "qnr_choice_id": 2566,
+                                "child_question_id": 1349,
+                                "parent_question_id": 1348
+                            },
+                            "children": [],
+                            "priority": null,
+                            "description": null,
+                            "placeholder": null,
+                            "validations": {
+                                "id": 1349,
+                                "max": null,
+                                "min": null,
+                                "pattern": null,
+                                "required": 1,
+                                "maxlength": null,
+                                "minlength": null,
+                                "qnr_question_id": 1349
+                            },
+                            "questionnaire_id": 3
+                        }
+                    ],
+                    "priority": null,
+                    "description": "For example, Vitamin C serum, sunscreen, chemical peel, or benzoyl peroxide.",
+                    "placeholder": null,
+                    "validations": {
+                        "id": 1348,
+                        "max": null,
+                        "min": null,
+                        "pattern": null,
+                        "required": 0,
+                        "maxlength": null,
+                        "minlength": null,
+                        "qnr_question_id": 1348
+                    },
+                    "questionnaire_id": 3
+                },
+                {
+                    "id": 1352,
+                    "code": null,
+                    "type": "radio",
+                    "title": "Is there anything else about your skin the doctor should know?",
+                    "choices": [
+                        {
+                            "id": 2576,
+                            "hint": null,
+                            "label": "Yes",
+                            "silent": 0,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        },
+                        {
+                            "id": 2577,
+                            "hint": null,
+                            "label": "No",
+                            "silent": 1,
+                            "priority": null,
+                            "exclusive": 0,
+                            "description": null,
+                            "warning_level": 0
+                        }
+                    ],
+                    "children": [
+                        {
+                            "id": 1353,
+                            "code": null,
+                            "type": "textarea",
+                            "title": "What else would you like the doctor to know?",
+                            "choices": [],
+                            "trigger": {
+                                "id": 829,
+                                "qnr_choice_id": 2576,
+                                "child_question_id": 1353,
+                                "parent_question_id": 1352
+                            },
+                            "children": [],
+                            "priority": null,
+                            "description": null,
+                            "placeholder": null,
+                            "validations": {
+                                "id": 1353,
+                                "max": null,
+                                "min": null,
+                                "pattern": null,
+                                "required": 1,
+                                "maxlength": null,
+                                "minlength": null,
+                                "qnr_question_id": 1353
+                            },
+                            "questionnaire_id": 3
+                        }
+                    ],
+                    "priority": null,
+                    "description": "The more information they know, the better.",
+                    "placeholder": null,
+                    "validations": {
+                        "id": 1352,
+                        "max": null,
+                        "min": null,
+                        "pattern": null,
+                        "required": 0,
+                        "maxlength": null,
+                        "minlength": null,
+                        "qnr_question_id": 1352
+                    },
+                    "questionnaire_id": 3
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,92 @@
+/*
+MIT LICENSE
+
+Copyright (c) 2015-present Ant UED, https://xtech.antfin.com/
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+.dearbrightly-message {
+    position: absolute;
+    left: 0;
+    z-index: 1010;
+    width: 100%;
+    pointer-events: none;
+}
+
+.dearbrightly-message-notice {
+    padding: 8px;
+    text-align: center;
+}
+
+.dearbrightly-message-notice:first-child {
+    margin-top: -8px;
+}
+
+.dearbrightly-message-notice-content {
+    display: inline-block;
+    padding: 10px 16px;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+    pointer-events: all;
+    z-index: 1000;
+}
+
+.dearbrightly-message-success .anticon {
+    color: #52c41a;
+}
+
+.dearbrightly-message-error .anticon {
+    color: #f5222d;
+}
+
+.dearbrightly-message-warning .anticon {
+    color: #faad14;
+}
+
+.dearbrightly-message-info .anticon,
+.dearbrightly-message-loading .anticon {
+    color: #1890ff;
+}
+
+.dearbrightly-message .anticon {
+    position: relative;
+    top: 1px;
+    margin-right: 8px;
+    font-size: 16px;
+}
+
+.dearbrightly-message-notice.move-up-leave.move-up-leave-active {
+    animation-name: MessageMoveOut;
+    animation-duration: 0.3s;
+}
+
+@keyframes MessageMoveOut {
+    0% {
+        max-height: 150px;
+        padding: 8px;
+        opacity: 1;
+    }
+    100% {
+        max-height: 0;
+        padding: 0;
+        opacity: 0;
+    }
+}

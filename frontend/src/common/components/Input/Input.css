@@ -1,0 +1,30 @@
+.input-container {
+  display: inline-block;
+  min-width: 275px;
+}
+
+.input-title {
+  font-size: 14px;
+  margin-bottom: 10px;
+  /* text-transform: uppercase; */
+  font-family: "Roboto";
+  font-weight: 700;
+}
+
+.input-required {
+  margin-left: 3px;
+}
+
+input {
+  color: #666;
+  min-height: 45px;
+  background-color: #fff;
+  border: 2px solid #ededed;
+  padding: 10px;
+  width: 100%;
+}
+
+input:focus {
+  border-color: #3b5998;
+  outline: 0;
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "model": "subscriptions.orderproductsubscription",
+    "pk": 1,
+    "fields": {
+      "created_datetime": "2019-09-20 00:30:25Z",
+      "last_modified_datetime": "2019-09-20 00:30:25Z",
+      "uuid": "d3a0a63b-6d0b-4ccf-b8c9-2ccb947d6cc7",
+      "customer": 4,
+      "product": 9,
+      "current_period_start_datetime": "2020-09-20 00:30:25Z",
+      "current_period_end_datetime": "2020-12-20 00:30:25Z",
+      "cancel_datetime": null,
+      "cancel_reason": "Not Applicable",
+      "frequency": 3,
+      "delay_in_days": 0,
+      "is_active": true,
+      "discount_code": null,
+      "upcoming_order_email_sent_datetime": null,
+      "open_invoice_id": "in_00000000000001"
+    }
+  },
+  {
+    "model": "subscriptions.orderproductsubscription",
+    "pk": 2,
+    "fields": {
+      "created_datetime": "2020-01-20 00:30:25Z",
+      "last_modified_datetime": "2020-03-25 00:30:25Z",
+      "uuid": "d3a0a63b-6d0b-4ccf-b8c9-2ccb94736cc7",
+      "customer": 5,
+      "product": 9,
+      "current_period_start_datetime": "2020-09-20 00:30:25Z",
+      "current_period_end_datetime": "2020-12-20 00:30:25Z",
+      "cancel_datetime": "2020-03-25 00:30:25Z",
+      "cancel_reason": "Not Applicable",
+      "frequency": 4,
+      "delay_in_days": 0,
+      "is_active": false,
+      "discount_code": null,
+      "upcoming_order_email_sent_datetime": null,
+      "open_invoice_id": "in_00000000000002"
+    }
+  },
+  {
+    "model": "subscriptions.orderproductsubscription",
+    "pk": 3,
+    "fields": {
+      "created_datetime": "2020-01-20 00:30:25Z",
+      "last_modified_datetime": "2020-03-25 00:30:25Z",
+      "uuid": "afd4c788-6e16-4336-9458-351c4926e893",
+      "customer": 6,
+      "product": 9,
+      "current_period_start_datetime": "2020-09-20 00:30:25Z",
+      "current_period_end_datetime": "2021-04-13 00:30:25Z",
+      "cancel_datetime": null,
+      "cancel_reason": "Not Applicable",
+      "frequency": 3,
+      "delay_in_days": 0,
+      "is_active": true,
+      "discount_code": null,
+      "upcoming_order_email_sent_datetime": "2021-04-06 00:30:25Z",
+      "open_invoice_id": "in_00000000000003"
+    }
+  }
+]

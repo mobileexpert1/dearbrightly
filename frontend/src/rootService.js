@@ -1,0 +1,25 @@
+import { CustomersService } from 'src/features/customers/services/CustomersService';
+import { AuthService } from 'src/features/auth/services/AuthService';
+import { ProductsService } from 'src/features/products/services/ProductsService';
+import { MedicalSurveyService } from 'src/features/medicalSurvey/service/MedicalSurveyService';
+import { PaymentService } from 'src/features/checkout/services/PaymentServices';
+import { StorageService } from 'src/common/services/StorageService';
+import { HttpService } from './common/services/HttpService';
+import { OrdersService } from './features/orders/services/OrdersService';
+import { CheckoutService } from './features/checkout/services/CheckoutServices';
+import { SubscriptionsService } from 'src/features/subscriptions/services/SubscriptionsService';
+import { UserService } from 'src/features/user/services/UserService';
+import { SharingProgramService } from 'src/features/sharingProgram/services/SharingProgramServices';
+
+export const httpService = new HttpService();
+export const localStorageService = new StorageService();
+export const authService = new AuthService(httpService, localStorageService);
+export const ordersService = new OrdersService(httpService);
+export const customersService = new CustomersService(httpService);
+export const productsService = new ProductsService(httpService);
+export const medicalSurveyService = new MedicalSurveyService(httpService, localStorageService);
+export const checkoutService = new CheckoutService(httpService);
+export const paymentsService = new PaymentService(httpService);
+export const subscriptionsService = new SubscriptionsService(httpService);
+export const userService = new UserService(httpService);
+export const sharingProgramService = new SharingProgramService(httpService);

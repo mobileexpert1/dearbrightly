@@ -1,0 +1,72 @@
+[
+  {
+    "model": "subscriptions.plan",
+    "pk": 1,
+    "fields": {
+      "created_datetime": "2019-05-22 21:08:17.390489Z",
+      "last_modified_datetime": "2019-05-22 21:08:17.390489Z",
+      "name": "3-month Glowgetter Subscription",
+      "stripe_id": "3_PLAN_RX-RET-0001-25",
+      "frequency": 3,
+      "product": 9
+    }
+  },
+  {
+    "model": "subscriptions.plan",
+    "pk": 2,
+    "fields": {
+      "created_datetime": "2019-05-22 21:08:17.390489Z",
+      "last_modified_datetime": "2019-05-22 21:08:17.390489Z",
+      "name": "4-month Glowgetter Subscription",
+      "stripe_id": "4_PLAN_RX-RET-0001-25",
+      "frequency": 4,
+      "product": 9
+    }
+  },
+  {
+    "model": "subscriptions.plan",
+    "pk": 3,
+    "fields": {
+      "created_datetime": "2019-05-22 21:08:17.390489Z",
+      "last_modified_datetime": "2019-05-22 21:08:17.390489Z",
+      "name": "3-month Glowgetter Set Subscription",
+      "frequency": 3,
+      "product": 10
+    }
+  },
+  {
+    "model": "subscriptions.plan",
+    "pk": 4,
+    "fields": {
+      "created_datetime": "2019-05-22 21:08:17.390489Z",
+      "last_modified_datetime": "2019-05-22 21:08:17.390489Z",
+      "name": "4-month Glowgetter Set Subscription",
+      "frequency": 4,
+      "product": 10
+    }
+  },
+  {
+    "model": "subscriptions.plan",
+    "pk": 5,
+    "fields": {
+      "created_datetime": "2019-05-22 21:08:17.390489Z",
+      "last_modified_datetime": "2019-05-22 21:08:17.390489Z",
+      "name": "3-month Salve Subscription",
+      "stripe_id": "3_PLAN_OTC-SAL-0001-51",
+      "frequency": 3,
+      "product": 1
+    }
+  },
+  {
+    "model": "subscriptions.plan",
+    "pk": 6,
+    "fields": {
+      "created_datetime": "2019-05-22 21:08:17.390489Z",
+      "last_modified_datetime": "2019-05-22 21:08:17.390489Z",
+      "name": "4-month Salve Subscription",
+      "stripe_id": "4_PLAN_OTC-SAL-0001-51",
+      "frequency": 4,
+      "product": 1
+    }
+  }
+]

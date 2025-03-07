@@ -1,0 +1,71 @@
+from django.conf import settings
+
+from localflavor.us.us_states import CONTIGUOUS_STATES, NON_CONTIGUOUS_STATES, US_TERRITORIES, ARMED_FORCES_STATES
+
+STATE_CHOICES = CONTIGUOUS_STATES + NON_CONTIGUOUS_STATES + US_TERRITORIES + ARMED_FORCES_STATES
+
+ALLOWED_SHIPPING_STATES = [
+	'AL',
+	'CA',
+	'CO',
+	'CT',
+	'DC',
+	'DE',
+	'FL',
+	'GA',
+	'HI',
+	'IA',
+	'ID',
+	'IL',
+	'IN',
+	'KS',
+	'KY',
+	'LA',
+	'MA',
+	'MD',
+	'ME',
+	'MI',
+	'MO',
+	'MN',
+	'MT',
+	'NC',
+	'ND',
+	'NE',
+	'NH',
+	"NJ",
+	'NM',
+	'NV',
+	'NY',
+	'OH',
+	'OK',
+	'OR',
+	'PA',
+	'RI',
+	'SC',
+	'SD',
+	'TN',
+	'TX',
+	'UT',
+	'VA',
+	'VT',
+	'WA',
+	'WI',
+	'WV',
+	'WY',
+]
+
+FREE_SHIP_ORDER_ITEM_COUNT_THRESHOLD = 2
+DEFAULT_SHIP_RATE = 450
+MEDICAL_VISIT_FEE = 2000
+ORDER_NUMBER_OFFSET = 100000000
+STRIPE_FEE_PERCENTAGE = 0.029
+
+FIRST_TIME_TRIAL_DISCOUNT = 700
+FIRST_TIME_TRIAL_DISCOUNT_CODE = 'TWOMONTHTRIAL7'
+TEN_PERCENT_OFF_FIRST_PURCHASE_PROMO = 'LIVEBRIGHTLY'
+
+DEFAULT_PHARMACY_ID = 1 # Curexa
+if settings.DEBUG:
+	DEFAULT_PHARMACY_DOSESPOT_ID = 14973 #8377  # VA Pharmacy Store 10.6 (DoseSpot test pharmacy that always succeeds in Rx transmission)
+else:
+	DEFAULT_PHARMACY_DOSESPOT_ID = 29992 # Curexa

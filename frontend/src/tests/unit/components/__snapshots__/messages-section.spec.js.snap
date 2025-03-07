@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessagesSection should render correctly 1`] = `
+<div
+  className="messages-section-container"
+>
+  <div
+    className="messages-section-main-content"
+  >
+    You have no messages at this time.
+  </div>
+</div>
+`;

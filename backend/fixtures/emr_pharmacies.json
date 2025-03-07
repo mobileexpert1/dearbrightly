@@ -1,0 +1,77 @@
+[
+  {
+    "model": "emr.pharmacy",
+    "pk": 1,
+    "fields": {
+      "created_datetime": "2019-07-20T21:47:01.288861+00",
+      "last_modified_datetime": "2019-07-20T21:47:01.288861+00",
+      "name": "Curexa- Egg Harbor Township, NJ",
+      "store_name": "Curexa- Egg Harbor Township, NJ",
+      "address_line1": "3007 Ocean Heights Ave.",
+      "address_line2": "",
+      "city": "Egg Harbor Township",
+      "state": "NJ",
+      "postal_code": "08234",
+      "primary_phone": "8559270390",
+      "primary_fax": "8559270392",
+      "npi": 3145403,
+      "dosespot_id": 29992
+    }
+  },
+  {
+    "model": "emr.pharmacy",
+    "pk": 2,
+    "fields": {
+      "created_datetime": "2019-09-05 17:17:18Z",
+      "last_modified_datetime": "2019-09-05 17:17:18Z",
+      "name": "FEEL GOOD COMPOUNDERS",
+      "store_name": "FEEL GOOD COMPOUNDERS",
+      "address_line1": "59 Bill Drake Way",
+      "address_line2": "",
+      "city": "Pacifica",
+      "state": "CA",
+      "postal_code": "94044",
+      "primary_phone": "6508988221",
+      "primary_fax": "6508988147",
+      "npi": 5656244
+    }
+  },
+  {
+    "model": "emr.pharmacy",
+    "pk": 3,
+    "fields": {
+      "created_datetime": "2019-09-05 17:17:18Z",
+      "last_modified_datetime": "2019-09-05 17:17:18Z",
+      "name": "ALLIANCERX WALGREENS PRIME-MAIL-AZ",
+      "store_name": "ALLIANCERX WALGREENS PRIME-MAIL-AZ",
+      "address_line1": "8350 S River Pkwy",
+      "address_line2": "",
+      "city": "Tempe",
+      "state": "AZ",
+      "postal_code": "85284",
+      "primary_phone": "8003451036",
+      "primary_fax": "8003329581",
+      "npi": 320793,
+      "dosespot_id": 8377
+    }
+  },
+  {
+    "model": "emr.pharmacy",
+    "pk": 4,
+    "fields": {
+      "created_datetime": "2023-01-20 06:49:08.732007",
+      "last_modified_datetime": "2023-01-20 06:49:08.732007",
+      "name": "Shollenberger Pharmacy",
+      "store_name": "Shollenberger Pharmacy",
+      "address_line1": "2002 S. McDowell Blvd Ext",
+      "address_line2": "",
+      "city": "Petaluma",
+      "state": "CA",
+      "postal_code": "94954",
+      "primary_phone": "7079845571",
+      "primary_fax": "7079884744",
+      "dosespot_id": 14973
+    }
+  }
+
+]

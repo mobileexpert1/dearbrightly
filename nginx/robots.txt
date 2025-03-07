@@ -1,0 +1,10 @@
+User-agent: *
+
+Disallow: /checkout-telehealth-consent
+Disallow: /checkout-questionnaire
+Disallow: /checkout-upload-photos
+Disallow: /order-confirmation
+Disallow: /user-dashboard
+Disallow: /checkout
+Disallow: /cart.php
+

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="233.44" height="166.894" viewBox="0 0 233.44 166.894">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #cacaca;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-1, .cls-4 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2, .cls-6 {
+        fill: #e6e6e6;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <ellipse id="Ellipse_15" data-name="Ellipse 15" cx="43.134" cy="41.88" rx="43.134" ry="41.88" transform="translate(91.333 213.056)"/>
+    </clipPath>
+  </defs>
+  <g id="Govt_id_icon_v2" transform="translate(-73.427 -153.32)">
+    <path id="Path_132" data-name="Path 132" class="cls-1" d="M305.367,311.715c0,4.142-3.635,7.5-8.119,7.5H82.048c-4.486,0-8.121-3.357-8.121-7.5V181.983c0-4.143,3.635-7.5,8.121-7.5h215.2c4.484,0,8.119,3.356,8.119,7.5Z" transform="translate(0.5)"/>
+    <line id="Line_16" data-name="Line 16" class="cls-1" x2="13.136" transform="translate(193.77 228.766)"/>
+    <line id="Line_17" data-name="Line 17" class="cls-1" x2="36.668" transform="translate(214.238 228.766)"/>
+    <line id="Line_18" data-name="Line 18" class="cls-1" x2="71.802" transform="translate(193.77 252.663)"/>
+    <line id="Line_19" data-name="Line 19" class="cls-1" x2="87.906" transform="translate(193.77 277.199)"/>
+    <g id="Group_184" data-name="Group 184" transform="translate(-4.5)">
+      <path id="Path_133" data-name="Path 133" class="cls-2" d="M210.381,184.693a4.475,4.475,0,0,1-4.475,4.473H181.628a4.473,4.473,0,0,1-4.472-4.473h0a4.473,4.473,0,0,1,4.472-4.472h24.278a4.476,4.476,0,0,1,4.475,4.472Z" transform="translate(0.271)"/>
+      <path id="Path_134" data-name="Path 134" class="cls-3" d="M202.906,182.257a2.464,2.464,0,0,1-2.49,2.437H186.728a2.463,2.463,0,0,1-2.489-2.437v-25.5a2.463,2.463,0,0,1,2.489-2.438h13.688a2.464,2.464,0,0,1,2.49,2.438Z" transform="translate(0.188)"/>
+    </g>
+    <circle id="Ellipse_14" data-name="Ellipse 14" class="cls-4" cx="3.353" cy="3.353" r="3.353" transform="translate(186.427 163.006)"/>
+    <g id="Group_183" data-name="Group 183">
+      <g id="Group_182" data-name="Group 182" class="cls-5">
+        <path id="Path_135" data-name="Path 135" class="cls-6" d="M117.339,234.6s6.307-15.154,20.2-16.1c0,0,13.014,2.714,15.85,13.136a17.738,17.738,0,0,1,0,7.891,6.322,6.322,0,0,0-5.381-5.175,12.631,12.631,0,0,0-7.5.8s-8.994,2.049-14.343-2.206c0,0-3.2-2.094-3.218-3.483,0,0-5.139,4.234-5.842,8.083C117.107,237.546,116.273,236.734,117.339,234.6Z"/>
+        <path id="Path_136" data-name="Path 136" class="cls-6" d="M103.617,295.121s5.6-22.034,21.084-27.553c0,0,3.291,2.238,11.57,2.282,0,0,13.23.093,13.91-8.668,0,0,21.435,5.148,21.211,19.871,0,0,1.639,13.8-11.147,16.39l-51.3.086Z"/>
+        <path id="Path_137" data-name="Path 137" class="cls-4" d="M120.515,261.265s0,8.021,13.947,8.716c0,0,14.992.349,15.688-8.716,0,0,21.62,3.485,21.271,21.968,0,0,1.513,14.3-14.645,14.3H111.448s-13.251.348-12.553-13.949C98.9,283.579,98.546,266.146,120.515,261.265Z"/>
+        <path id="Path_138" data-name="Path 138" class="cls-4" d="M115.181,239.449s-2.439-18.132,16.736-21.269c0,0,20.574-1.742,22.318,18.131,0,0,0,27.482-19.809,28.417C134.427,264.729,119.017,265.254,115.181,239.449Z"/>
+        <path id="Path_139" data-name="Path 139" class="cls-4" d="M115.975,240.55s2.789-8.925,6.974-11.087c0,0,4.881,9.066,18.131,5.543,0,0,13.295-5.037,12.25,9.256"/>
+        <path id="Path_140" data-name="Path 140" class="cls-1" d="M128.948,269.383l3.3,8.006s2.25,1.15,3.713.018l3.766-8.023S133.859,270.824,128.948,269.383Z"/>
+        <path id="Path_141" data-name="Path 141" class="cls-1" d="M132.251,277.389l-2.662,20.141h10.92l-4.545-20.122S134.517,278.893,132.251,277.389Z"/>
+      </g>
+    </g>
+    <circle id="Ellipse_16" data-name="Ellipse 16" class="cls-4" cx="45.91" cy="45.91" r="45.91" transform="translate(87.802 204.532)"/>
+  </g>
+</svg>

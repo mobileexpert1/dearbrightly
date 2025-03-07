@@ -1,0 +1,1 @@
+export const DEFAULT_MAIN_PRODUCT_NAME = 'Night Shift';

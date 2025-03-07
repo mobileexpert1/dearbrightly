@@ -1,0 +1,815 @@
+[
+  {
+    "model": "emr.prescription",
+    "pk": 1,
+    "fields": {
+      "uuid": "582bf73c-c605-4e75-8619-a1cf0a0bd235",
+      "created_datetime": "2019-07-19T23:40:50.725Z",
+      "last_modified_datetime": "2019-07-19T23:40:54.294Z",
+      "product_id": 11,
+      "display_name": "1. Lite - 0.015% - All",
+      "exact_name": "Tretinoin 0.015%/Hyaluronic Acid 0.5% in Pracasil",
+      "rxcui": "313451-A",
+      "days_supply": 60,
+      "refills": 0,
+      "quantity": 15,
+      "directions": "Apply a pea-sized drop to full face every 3rd night and increase to nightly as tolerated.",
+      "pharmacy_notes": "Dear Brightly",
+      "dosespot_id": 22802309
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 2,
+    "fields": {
+      "uuid": "49b20c43-a299-4438-ac33-796ef4c2373c",
+      "created_datetime": "2019-07-19T23:42:04.795Z",
+      "last_modified_datetime": "2019-07-19T23:42:06.357Z",
+      "product_id": 9,
+      "display_name": "2. 0.06% - Oily/Combo",
+      "exact_name": "Tretinoin 0.06%/Hyaluronic Acid 0.5% in Pracasil",
+      "rxcui": "313451-B",
+      "days_supply": 90,
+      "refills": 3,
+      "quantity": 25,
+      "directions": "Apply a pea-sized drop to full face every 3rd night and increase to nightly as tolerated.",
+      "pharmacy_notes": "Dear Brightly"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 3,
+    "fields": {
+      "uuid": "18785f55-680d-42d1-b8a7-1fdef766d247",
+      "created_datetime": "2019-07-19T23:40:50.725Z",
+      "last_modified_datetime": "2019-07-19T23:40:54.294Z",
+      "product_id": 9,
+      "display_name": "2. 0.03% - Normal",
+      "exact_name": "Tretinoin 0.03%/Hyaluronic Acid 0.5% in Pracasil",
+      "rxcui": "313451-C",
+      "days_supply": 90,
+      "refills": 3,
+      "quantity": 25,
+      "directions": "Apply a pea-sized drop to full face every 3rd night and increase to nightly as tolerated.",
+      "pharmacy_notes": "Dear Brightly"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 4,
+    "fields": {
+      "uuid": "b79b228f-2f6c-4f7c-b5fd-1758ec0dc939",
+      "created_datetime": "2019-07-19T23:42:04.795Z",
+      "last_modified_datetime": "2019-07-19T23:42:06.357Z",
+      "product_id": 9,
+      "display_name": "2. 0.023% - Sensitive/Dry",
+      "exact_name": "Tretinoin 0.023%/Hyaluronic Acid 0.5% in Pracasil",
+      "rxcui": "313451-D",
+      "days_supply": 90,
+      "refills": 3,
+      "quantity": 25,
+      "directions": "Apply a pea-sized drop to full face every 3rd night and increase to nightly as tolerated.",
+      "pharmacy_notes": "Dear Brightly"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 5,
+    "fields": {
+      "uuid": "c25432ea-5fe3-47af-9b5d-63232929af46",
+      "created_datetime": "2019-08-26 13:30:52Z",
+      "last_modified_datetime": "2019-08-26 13:30:52Z",
+      "product_id": 9,
+      "display_name": "2. 0.06% - Oily/Combo",
+      "exact_name": "Tretinoin 0.06%/Hyaluronic Acid 0.5% in Pracasil [Duplicate of 2]",
+      "rxcui": "313451-E",
+      "days_supply": 90,
+      "refills": 3,
+      "quantity": 25,
+      "directions": "Apply a pea-sized drop to full face every 3rd night and increase to nightly as tolerated.",
+      "pharmacy_notes": "Dear Brightly"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 6,
+    "fields": {
+      "uuid": "b0d4ecf8-0dd3-4c61-8edf-1273e698e3c9",
+      "created_datetime": "2019-08-26 13:30:52Z",
+      "last_modified_datetime": "2019-08-26 13:30:52Z",
+      "product_id": 9,
+      "display_name": "2. 0.03% - Normal",
+      "exact_name": "Tretinoin 0.03%/Hyaluronic Acid 0.5% in Pracasil [Duplicate of 3]",
+      "rxcui": "313451-F",
+      "days_supply": 90,
+      "refills": 3,
+      "quantity": 25,
+      "directions": "Apply a pea-sized drop to full face every 3rd night and increase to nightly as tolerated.",
+      "pharmacy_notes": "Dear Brightly",
+      "dosespot_id": 22802323
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 7,
+    "fields": {
+      "uuid": "d5f25093-cb66-4002-8053-457c44d74cc9",
+      "created_datetime": "2019-08-26 13:30:52Z",
+      "last_modified_datetime": "2019-08-26 13:30:52Z",
+      "product_id": 9,
+      "display_name": "2. 0.023% - Sensitive/Dry",
+      "exact_name": "Tretinoin 0.023%/Hyaluronic Acid 0.5% in Pracasil [Duplicate of 4]",
+      "rxcui": "313451-G",
+      "days_supply": 90,
+      "refills": 3,
+      "quantity": 25,
+      "directions": "Apply a pea-sized drop to full face every 3rd night and increase to nightly as tolerated.",
+      "pharmacy_notes": "Dear Brightly"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 8,
+    "fields": {
+      "uuid": "b31ca59f-043f-426b-ad86-e9acee3a2ad0",
+      "created_datetime": "2019-07-19T23:40:50.725Z",
+      "last_modified_datetime": "2019-07-19T23:40:54.294Z",
+      "product_id": 9,
+      "display_name": "2. 0.1% - Custom",
+      "exact_name": "Tretinoin 0.1%/Hyaluronic Acid 0.5% in Pracasil",
+      "rxcui": "313451-H",
+      "days_supply": 90,
+      "refills": 3,
+      "quantity": 25,
+      "directions": "Apply a pea-sized drop to full face every 3rd night and increase to nightly as tolerated.",
+      "pharmacy_notes": "Dear Brightly"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 9,
+    "fields": {
+      "uuid": "dcb76ba1-bc7e-4f35-986d-da0513cf7b67",
+      "created_datetime": "2019-07-19T23:42:04.795Z",
+      "last_modified_datetime": "2019-07-19T23:42:06.357Z",
+      "product_id": 11,
+      "display_name": "1. Lite - 0.023% - Oily/Combo",
+      "exact_name": "Tretinoin 0.023%/Hyaluronic Acid 0.5% in Pracasil",
+      "rxcui": "313451-I",
+      "days_supply": 60,
+      "refills": 0,
+      "quantity": 15,
+      "directions": "Apply a pea-sized drop to full face every 3rd night and increase to nightly as tolerated.",
+      "pharmacy_notes": "Dear Brightly"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 10,
+    "fields": {
+      "uuid": "85dd9abb-04df-4783-a027-b94ddbecec0e",
+      "created_datetime": "2019-09-01 21:39:53Z",
+      "last_modified_datetime": "2019-09-01 21:39:53Z",
+      "product_id": 11,
+      "display_name": "1. 0.03% - Normal",
+      "exact_name": "Tretinoin 0.03%/Hyaluronic Acid 0.5% in Pracasil",
+      "rxcui": "313451-J",
+      "days_supply": 60,
+      "refills": 0,
+      "quantity": 15,
+      "directions": "Apply a pea-sized drop to full face every 3rd night and increase to nightly as tolerated.",
+      "pharmacy_notes": "Dear Brightly"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 11,
+    "fields": {
+      "uuid": "96f35942-d217-474c-be20-d262955cc818",
+      "created_datetime": "2019-09-01 21:39:53Z",
+      "last_modified_datetime": "2019-09-01 21:39:53Z",
+      "product_id": 11,
+      "display_name": "1. 0.06% - Oily/Combo",
+      "exact_name": "Tretinoin 0.06%/Hyaluronic Acid 0.5% in Pracasil",
+      "rxcui": "313451-K",
+      "days_supply": 60,
+      "refills": 0,
+      "quantity": 15,
+      "directions": "Apply a pea sized drop to affected areas of skin every night.",
+      "pharmacy_notes": "Dear Brightly"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 12,
+    "fields": {
+      "uuid": "0250d586-d730-42dc-aa5e-1f60bedc1487",
+      "created_datetime": "2019-09-01 21:39:53Z",
+      "last_modified_datetime": "2019-09-01 21:39:53Z",
+      "product_id": 11,
+      "display_name": "1. 0.1% - Custom",
+      "exact_name": "Tretinoin 0.1%/Hyaluronic Acid 0.5% in Pracasil",
+      "rxcui": "313451-L",
+      "days_supply": 60,
+      "refills": 0,
+      "quantity": 15,
+      "directions": "Apply a pea-sized drop to full face every 3rd night and increase to nightly as tolerated.",
+      "pharmacy_notes": "Dear Brightly"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 13,
+    "fields": {
+      "uuid": "2105d9f8-abae-4ce9-9a8b-52ddcbadbf89",
+      "created_datetime": "2019-09-01 21:39:53Z",
+      "last_modified_datetime": "2019-09-01 21:39:53Z",
+      "product_id": 9,
+      "display_name": "Unknown",
+      "exact_name": "Unknown",
+      "rxcui": "106303",
+      "days_supply": 90,
+      "refills": 1,
+      "quantity": 15,
+      "directions": "Apply a pea-sized drop to full face every night.",
+      "pharmacy_notes": ""
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 14,
+    "fields": {
+      "uuid": "6abcd542-2b01-4e14-b5c1-29350dc7a63c",
+      "created_datetime": "2019-09-01 21:39:53Z",
+      "last_modified_datetime": "2019-09-01 21:39:53Z",
+      "product_id": 9,
+      "display_name": "Tretinoin Topical 0.1% cream",
+      "exact_name": "tretinoin 0.1% topical cream",
+      "rxcui": "198300",
+      "days_supply": 90,
+      "refills": 1,
+      "quantity": 25,
+      "directions": "Apply pea size amount to face once in evening.",
+      "pharmacy_notes": ""
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 15,
+    "fields": {
+      "uuid": "6ccc5923-2446-44ef-a4d8-bc0653f3d918",
+      "created_datetime": "2019-09-01 21:39:53Z",
+      "last_modified_datetime": "2019-09-01 21:39:53Z",
+      "product_id": 9,
+      "display_name": "Oily - Retinoid",
+      "exact_name": "Tretinoin 0.25 MG/ML Topical Cream [Retin-A]",
+      "rxcui": "208328-A",
+      "days_supply": 90,
+      "refills": 3,
+      "quantity": 1,
+      "directions": "Apply a pea sized drop to affected areas of skin every night.",
+      "pharmacy_notes": "Compound: Tretinoin 0.04%, Niacinamide 4%, Zinc Acetate 12%, Vitamin C 1% in Pracasil"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 16,
+    "fields": {
+      "uuid": "00935512-ab50-4378-8488-90053c021b0b",
+      "created_datetime": "2019-09-01 21:39:53Z",
+      "last_modified_datetime": "2019-09-01 21:39:53Z",
+      "product_id": 9,
+      "display_name": "Normal - Retinoid",
+      "exact_name": "Tretinoin 0.25 MG/ML Topical Cream [Retin-A]",
+      "rxcui": "208328-B",
+      "days_supply": 30,
+      "refills": 0,
+      "quantity": 1,
+      "directions": "Apply a pea sized drop to affected areas of skin every night.",
+      "pharmacy_notes": "Compound: Tretinoin 0.025%, Niacinamide 4%, Vitamin C 1% in Pracasil"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 17,
+    "fields": {
+      "uuid": "e8b8ec93-120e-4970-a5be-e68e510af1da",
+      "created_datetime": "2019-09-01 21:39:53Z",
+      "last_modified_datetime": "2019-09-01 21:39:53Z",
+      "product_id": 9,
+      "display_name": "Sensitive/Dry - Retinoid",
+      "exact_name": "Tretinoin 0.25 MG/ML Topical Cream [Retin-A]",
+      "rxcui": "208328-C",
+      "days_supply": 90,
+      "refills": 2,
+      "quantity": 20,
+      "directions": "Apply a pea-sized drop to full face every night.",
+      "pharmacy_notes": "DearBrightly Compound: Tretinoin 0.023% in Anhydrous Cream"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 18,
+    "fields": {
+      "uuid": "3e205195-f854-4d55-ac39-0c722243a9a4",
+      "created_datetime": "2019-09-01 21:39:53Z",
+      "last_modified_datetime": "2019-09-01 21:39:53Z",
+      "product_id": 9,
+      "display_name": "Oily - Starter Retinoid",
+      "exact_name": "Tretinoin 0.25 MG/ML Topical Cream [Retin-A]",
+      "rxcui": "208328-D",
+      "days_supply": 90,
+      "refills": 1,
+      "quantity": 15,
+      "directions": "Apply a pea sized drop to affected areas of skin every night.",
+      "pharmacy_notes": "Compound: Tretinoin 0.01% in Pracasil-Plus"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 19,
+    "fields": {
+      "uuid": "b56e2e80-929f-4d97-8d9e-835ce9b62071",
+      "created_datetime": "2019-09-01 21:39:53Z",
+      "last_modified_datetime": "2019-09-01 21:39:53Z",
+      "product_id": 9,
+      "display_name": "Normal - Starter Retinoid",
+      "exact_name": "Tretinoin 0.25 MG/ML Topical Cream [Retin-A]",
+      "rxcui": "208328-E",
+      "days_supply": 90,
+      "refills": 1,
+      "quantity": 15,
+      "directions": "Apply a pea sized drop to affected areas of skin every night.",
+      "pharmacy_notes": "Compound: Tretinoin 0.01% in Pracasil-Plus"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 20,
+    "fields": {
+      "uuid": "19ce9726-83e7-4f96-bd9d-8ce36fa4c7a5",
+      "created_datetime": "2019-09-01 21:39:53Z",
+      "last_modified_datetime": "2019-09-01 21:39:53Z",
+      "product_id": 11,
+      "display_name": "Sensitive - Starter Retinoid",
+      "exact_name": "Tretinoin 0.25 MG/ML Topical Cream [Retin-A]",
+      "rxcui": "208328-F",
+      "days_supply": 90,
+      "refills": 1,
+      "quantity": 15,
+      "directions": "Apply a pea sized drop to affected areas of skin every night.",
+      "pharmacy_notes": "Compound: Tretinoin 0.01% in Anhydrous Cream"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 21,
+    "fields": {
+      "uuid": "d8e8dc3d-9a93-49da-97f1-58e70c28f39b",
+      "created_datetime": "2019-09-01 21:39:53Z",
+      "last_modified_datetime": "2019-09-01 21:39:53Z",
+      "product_id": 9,
+      "display_name": "Oily - Retinoid",
+      "exact_name": "Tretinoin 0.25 MG/ML Topical Cream [Retin-A]",
+      "rxcui": "208328-G",
+      "days_supply": 90,
+      "refills": 1,
+      "quantity": 25,
+      "directions": "Apply a pea sized drop to affected areas of skin every night.",
+      "pharmacy_notes": "DearBrightly Compound: Tretinoin 0.044% in Pracasil-Plus"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 22,
+    "fields": {
+      "uuid": "0e7754e4-8607-4086-aed9-2d1432447e6b",
+      "created_datetime": "2019-09-01 21:39:53Z",
+      "last_modified_datetime": "2019-09-01 21:39:53Z",
+      "product_id": 9,
+      "display_name": "Normal - Retinoid",
+      "exact_name": "Tretinoin 0.25 MG/ML Topical Cream [Retin-A]",
+      "rxcui": "208328-H",
+      "days_supply": 90,
+      "refills": 3,
+      "quantity": 30,
+      "directions": "Apply a pea sized drop to affected areas of skin every night.",
+      "pharmacy_notes": "Compound: Tretinoin 0.025% in Pracasil-Plus"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 23,
+    "fields": {
+      "uuid": "a7463ed3-6050-4c31-8ffc-58f4927a9409",
+      "created_datetime": "2019-09-01 21:39:53Z",
+      "last_modified_datetime": "2019-09-01 21:39:53Z",
+      "product_id": 9,
+      "display_name": "Sensitive - Retinoid",
+      "exact_name": "Tretinoin 0.25 MG/ML Topical Cream [Retin-A]",
+      "rxcui": "208328-I",
+      "days_supply": 90,
+      "refills": 3,
+      "quantity": 30,
+      "directions": "Apply a pea sized drop to affected areas of skin every night.",
+      "pharmacy_notes": "Compound: Tretinoin 0.01% in Anhydrous Cream"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 24,
+    "fields": {
+      "uuid": "4418ff56-c1e0-4e5d-b693-b39f2d495196",
+      "created_datetime": "2019-09-01 21:39:53Z",
+      "last_modified_datetime": "2019-09-01 21:39:53Z",
+      "product_id": 11,
+      "display_name": "Starter Lite - 0.015% - All",
+      "exact_name": "Tretinoin 0.25 MG/ML Topical Cream [Retin-A]",
+      "rxcui": "208328-J",
+      "days_supply": 60,
+      "refills": 0,
+      "quantity": 13,
+      "directions": "Apply a pea-sized drop to full face every night.",
+      "pharmacy_notes": "DearBrightly Compound: Tretinoin 0.015% in Pracasil-Plus"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 25,
+    "fields": {
+      "uuid": "b9854688-532d-41d4-b1ad-404762e133fe",
+      "created_datetime": "2019-09-01 21:39:53Z",
+      "last_modified_datetime": "2019-09-01 21:39:53Z",
+      "product_id": 9,
+      "display_name": "Normal - Starter Retinoid",
+      "exact_name": "Tretinoin 0.25 MG/ML Topical Cream [Retin-A]",
+      "rxcui": "208328-K",
+      "days_supply": 90,
+      "refills": 1,
+      "quantity": 15,
+      "directions": "Apply a pea sized drop to affected areas of skin every night.",
+      "pharmacy_notes": "Compound: Tretinoin 0.01% in Pracasil-Plus"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 26,
+    "fields": {
+      "uuid": "56812ab5-e9bb-4ffe-b5fe-579c2d63252f",
+      "created_datetime": "2019-09-01 21:39:53Z",
+      "last_modified_datetime": "2019-09-01 21:39:53Z",
+      "product_id": 11,
+      "display_name": "Starter Reg - 0.03% - Normal",
+      "exact_name": "Tretinoin 0.25 MG/ML Topical Cream [Retin-A]",
+      "rxcui": "208328-L",
+      "days_supply": 60,
+      "refills": 0,
+      "quantity": 13,
+      "directions": "Apply a pea-sized drop to full face every night.",
+      "pharmacy_notes": "DearBrightly Compound: Tretinoin 0.03% in Anhydrous Cream"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 27,
+    "fields": {
+      "uuid": "5564cf06-95cd-4df6-a6c7-40433f38921f",
+      "created_datetime": "2019-09-01 21:39:53Z",
+      "last_modified_datetime": "2019-09-01 21:39:53Z",
+      "product_id": 9,
+      "display_name": "Oily - Retinoid",
+      "exact_name": "Tretinoin 0.25 MG/ML Topical Cream [Retin-A]",
+      "rxcui": "208328-M",
+      "days_supply": 90,
+      "refills": 2,
+      "quantity": 25,
+      "directions": "Apply a pea sized drop to affected areas of skin every night.",
+      "pharmacy_notes": "DearBrightly Compound: Tretinoin 0.044% in Pracasil-Plus"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 28,
+    "fields": {
+      "uuid": "0bc4bfab-de9c-4b23-be48-6f059ec26611",
+      "created_datetime": "2019-09-01 21:39:53Z",
+      "last_modified_datetime": "2019-09-01 21:39:53Z",
+      "product_id": 9,
+      "display_name": "Normal - Retinoid",
+      "exact_name": "Tretinoin 0.25 MG/ML Topical Cream [Retin-A]",
+      "rxcui": "208328-N",
+      "days_supply": 90,
+      "refills": 3,
+      "quantity": 30,
+      "directions": "Apply a pea sized drop to affected areas of skin every night.",
+      "pharmacy_notes": "Compound: Tretinoin 0.025% in Pracasil-Plus"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 29,
+    "fields": {
+      "uuid": "bea621a3-ec76-403e-843f-1337cdcdfb6c",
+      "created_datetime": "2019-09-01 21:39:53Z",
+      "last_modified_datetime": "2019-09-01 21:39:53Z",
+      "product_id": 11,
+      "display_name": "Starter Reg - Sensitive/Dry - Retinoid",
+      "exact_name": "Tretinoin 0.25 MG/ML Topical Cream [Retin-A]",
+      "rxcui": "208328-O",
+      "days_supply": 60,
+      "refills": 0,
+      "quantity": 13,
+      "directions": "Apply a pea-sized drop to full face every night.",
+      "pharmacy_notes": "DearBrightly Compound: Tretinoin 0.023% in Anhydrous Cream"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 30,
+    "fields": {
+      "uuid": "b70b39ca-7c7c-47e0-aa78-b86780dac215",
+      "created_datetime": "2019-09-01 21:39:53Z",
+      "last_modified_datetime": "2019-09-01 21:39:53Z",
+      "product_id": 9,
+      "display_name": "Oily/Combo - Retinoid",
+      "exact_name": "Tretinoin 0.25 MG/ML Topical Cream [Retin-A]",
+      "rxcui": "208328-P",
+      "days_supply": 90,
+      "refills": 3,
+      "quantity": 20,
+      "directions": "Apply a pea-sized drop to full face every night.",
+      "pharmacy_notes": "DearBrightly Compound: Tretinoin 0.06% in Pracasil-Plus"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 31,
+    "fields": {
+      "uuid": "05dd3e5a-bdd3-457f-b6ea-1dc82f0ca56a",
+      "created_datetime": "2019-09-01 21:39:53Z",
+      "last_modified_datetime": "2019-09-01 21:39:53Z",
+      "product_id": 9,
+      "display_name": "0.03% - Normal",
+      "exact_name": "Tretinoin 0.25 MG/ML Topical Cream [Retin-A]",
+      "rxcui": "208328-Q",
+      "days_supply": 90,
+      "refills": 3,
+      "quantity": 20,
+      "directions": "Apply a pea-sized drop to full face every night.",
+      "pharmacy_notes": "DearBrightly Compound: Tretinoin 0.03% in Pracasil-Plus"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 32,
+    "fields": {
+      "uuid": "df12d298-0e9e-4a96-8c06-bc6af55e471b",
+      "created_datetime": "2019-09-01 21:39:53Z",
+      "last_modified_datetime": "2019-09-01 21:39:53Z",
+      "product_id": 9,
+      "display_name": "0.023% - Sensitive/Dry",
+      "exact_name": "Tretinoin 0.25 MG/ML Topical Cream [Retin-A]",
+      "rxcui": "208328-R",
+      "days_supply": 90,
+      "refills": 0,
+      "quantity": 20,
+      "directions": "Apply a pea-sized drop to full face every night.",
+      "pharmacy_notes": "DearBrightly Compound: Tretinoin 0.023% in Pracasil-Plus"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 33,
+    "fields": {
+      "uuid": "b16153d3-6280-4f68-9fd2-84dc1a149da5",
+      "created_datetime": "2020-03-04 13:43:16Z",
+      "last_modified_datetime": "2020-03-04 13:43:16Z",
+      "product_id": 9,
+      "display_name": "2. Lite - 0.015% - All",
+      "exact_name": "Tretinoin 0.015%/Hyaluronic Acid 0.5% in Pracasil",
+      "rxcui": "0",
+      "days_supply": 90,
+      "refills": 3,
+      "quantity": 25,
+      "directions": "Apply a pea-sized drop to full face every 3rd night and increase to nightly as tolerated.",
+      "pharmacy_notes": "Dear Brightly",
+      "dosespot_id": 27176958
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 34,
+    "fields": {
+      "uuid": "83aabc8d-dc8a-4626-bb93-25cc462fcf32",
+      "created_datetime": "2022-12-13 05:42:09.096221",
+      "last_modified_datetime": "2022-12-13 05:42:09.096221",
+      "product_id": 31,
+      "display_name": "1. 0.015% - All (Nourisil)",
+      "exact_name": "Tretinoin 0.015%/Niacinamide 4% in Nourisil",
+      "rxcui": "0",
+      "days_supply": 60,
+      "refills": 0,
+      "quantity": 15,
+      "directions": "Apply a pea-sized drop to full face every 3rd night and increase to nightly as tolerated.",
+      "pharmacy_notes": "Dear Brightly"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 35,
+    "fields": {
+      "uuid": "394f72e5-a505-4bca-8a33-b8b3bd35cdff",
+      "created_datetime": "2022-12-13 05:42:09.096221",
+      "last_modified_datetime": "2022-12-13 05:42:09.096221",
+      "product_id": 31,
+      "display_name": "1. 0.03% - Normal (Nourisil)",
+      "exact_name": "Tretinoin 0.03%/Niacinamide 4% in Nourisil",
+      "rxcui": "0",
+      "days_supply": 60,
+      "refills": 0,
+      "quantity": 15,
+      "directions": "Apply a pea-sized drop to full face every 3rd night and increase to nightly as tolerated.",
+      "pharmacy_notes": "Dear Brightly"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 36,
+    "fields": {
+      "uuid": "bcf4159f-d905-4882-89e7-8e3c4f0cfbc2",
+      "created_datetime": "2022-12-13 05:42:09.096221",
+      "last_modified_datetime": "2022-12-13 05:42:09.096221",
+      "product_id": 31,
+      "display_name": "1. 0.06% - Oily/Combo (Nourisil)",
+      "exact_name": "Tretinoin 0.06%/Niacinamide 4% in Nourisil",
+      "rxcui": "0",
+      "days_supply": 60,
+      "refills": 0,
+      "quantity": 15,
+      "directions": "Apply a pea-sized drop to full face every 3rd night and increase to nightly as tolerated.",
+      "pharmacy_notes": "Dear Brightly"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 37,
+    "fields": {
+      "uuid": "cec50805-8a45-4f3d-97fa-04fc59a28818",
+      "created_datetime": "2022-12-13 05:42:09.096221",
+      "last_modified_datetime": "2022-12-13 05:42:09.096221",
+      "product_id": 31,
+      "display_name": "1. 0.023% - Oily/Combo (Nourisil)",
+      "exact_name": "Tretinoin 0.023%/Niacinamide 4% in Nourisil",
+      "rxcui": "0",
+      "days_supply": 60,
+      "refills": 0,
+      "quantity": 15,
+      "directions": "Apply a pea-sized drop to full face every 3rd night and increase to nightly as tolerated.",
+      "pharmacy_notes": "Dear Brightly"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 38,
+    "fields": {
+      "uuid": "b383651f-6c89-45e2-8b2e-1b8a8984b3fa",
+      "created_datetime": "2022-12-13 05:42:09.096221",
+      "last_modified_datetime": "2022-12-13 05:42:09.096221",
+      "product_id": 31,
+      "display_name": "1. 0.1% - Custom (Nourisil)",
+      "exact_name": "Tretinoin 0.1%/Niacinamide 4% in Nourisil",
+      "rxcui": "0",
+      "days_supply": 60,
+      "refills": 0,
+      "quantity": 15,
+      "directions": "Apply a pea-sized drop to full face every 3rd night and increase to nightly as tolerated.",
+      "pharmacy_notes": "Dear Brightly"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 39,
+    "fields": {
+      "uuid": "733cc64d-10c2-4ce4-aafc-971471c152fb",
+      "created_datetime": "2022-12-13 05:42:09.096221",
+      "last_modified_datetime": "2022-12-13 05:42:09.096221",
+      "product_id": 33,
+      "display_name": "2. 0.015% - All (Nourisil)",
+      "exact_name": "Tretinoin 0.015%/Niacinamide 4% in Nourisil",
+      "rxcui": "0",
+      "days_supply": 90,
+      "refills": 6,
+      "quantity": 25,
+      "directions": "Apply a pea-sized drop to full face every 3rd night and increase to nightly as tolerated.",
+      "pharmacy_notes": "Dear Brightly"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 40,
+    "fields": {
+      "uuid": "3d26d0db-266d-4f48-99de-ccfeb3e130b1",
+      "created_datetime": "2022-12-13 05:42:09.096221",
+      "last_modified_datetime": "2022-12-13 05:42:09.096221",
+      "product_id": 33,
+      "display_name": "2. 0.023% - Sensitive/Dry (Nourisil)",
+      "exact_name": "Tretinoin 0.023%/Niacinamide 4% in Nourisil",
+      "rxcui": "0",
+      "days_supply": 90,
+      "refills": 6,
+      "quantity": 25,
+      "directions": "Apply a pea-sized drop to full face every 3rd night and increase to nightly as tolerated.",
+      "pharmacy_notes": "Dear Brightly"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 41,
+    "fields": {
+      "uuid": "2089cb4e-485a-4730-8cf6-10c05895146b",
+      "created_datetime": "2022-12-13 05:42:09.096221",
+      "last_modified_datetime": "2022-12-13 05:42:09.096221",
+      "product_id": 33,
+      "display_name": "2. 0.03% - Normal (Nourisil)",
+      "exact_name": "Tretinoin 0.03%/Niacinamide 4% in Nourisil",
+      "rxcui": "0",
+      "days_supply": 90,
+      "refills": 6,
+      "quantity": 25,
+      "directions": "Apply a pea-sized drop to full face every 3rd night and increase to nightly as tolerated.",
+      "pharmacy_notes": "Dear Brightly"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 42,
+    "fields": {
+      "uuid": "d2efeb0c-4d94-4dcd-ae27-21b90f03bb84",
+      "created_datetime": "2022-12-13 05:42:09.096221",
+      "last_modified_datetime": "2022-12-13 05:42:09.096221",
+      "product_id": 33,
+      "display_name": "2. 0.06% - Oily/Combo (Nourisil)",
+      "exact_name": "Tretinoin 0.06%/Niacinamide 4% in Nourisil",
+      "rxcui": "0",
+      "days_supply": 90,
+      "refills": 6,
+      "quantity": 25,
+      "directions": "Apply a pea-sized drop to full face every 3rd night and increase to nightly as tolerated.",
+      "pharmacy_notes": "Dear Brightly"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 43,
+    "fields": {
+      "uuid": "5327df62-0436-4e1b-a3b4-a96cbadecc5d",
+      "created_datetime": "2022-12-13 05:42:09.096221",
+      "last_modified_datetime": "2022-12-13 05:42:09.096221",
+      "product_id": 33,
+      "display_name": "2. 0.1% - Custom (Nourisil)",
+      "exact_name": "Tretinoin 0.1%/Niacinamide 4% in Nourisil",
+      "rxcui": "0",
+      "days_supply": 90,
+      "refills": 6,
+      "quantity": 25,
+      "directions": "Apply a pea-sized drop to full face every 3rd night and increase to nightly as tolerated.",
+      "pharmacy_notes": "Dear Brightly"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 44,
+    "fields": {
+      "uuid": "a359d386-947e-4a24-949b-a59617cb4b87",
+      "created_datetime": "2023-03-17 05:42:09.096221",
+      "last_modified_datetime": "2023-03-17 05:42:09.096221",
+      "product_id": 33,
+      "display_name": "2. 0.089% - Custom (Nourisil)",
+      "exact_name": "Tretinoin 0.089%/Niacinamide 4% in Nourisil",
+      "rxcui": "0",
+      "days_supply": 90,
+      "refills": 6,
+      "quantity": 25,
+      "directions": "Apply a pea-sized drop to full face every 3rd night and increase to nightly as tolerated.",
+      "pharmacy_notes": "Dear Brightly"
+    }
+  },
+  {
+    "model": "emr.prescription",
+    "pk": 45,
+    "fields": {
+      "uuid": "d70b6ee3-6414-4bdc-8d6c-7fc7f009df3a",
+      "created_datetime": "2023-03-17 05:42:09.096221",
+      "last_modified_datetime": "2023-03-17 05:42:09.096221",
+      "product_id": 31,
+      "display_name": "1. 0.089% - Custom (Nourisil)",
+      "exact_name": "Tretinoin 0.089%/Niacinamide 4% in Nourisil",
+      "rxcui": "0",
+      "days_supply": 60,
+      "refills": 0,
+      "quantity": 15,
+      "directions": "Apply a pea-sized drop to full face every 3rd night and increase to nightly as tolerated.",
+      "pharmacy_notes": "Dear Brightly"
+    }
+  }
+]

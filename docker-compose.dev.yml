@@ -1,0 +1,57 @@
+version: "3.2"
+
+services:
+  frontend:
+    env_file:
+      - ./.env
+    volumes:
+      - ./frontend:/frontend
+      - dist:/frontend/dist
+    command: bash -c "yarn && yarn start"
+    ports:
+      - 8888:8888
+
+  backend:
+    volumes:
+      - ./backend:/backend/
+    command: bash -c "chmod +x wait_for_databases.sh
+      && ./wait_for_databases.sh
+      && python manage.py collectstatic --noinput
+      && python manage.py migrate
+      && python manage.py graphql_schema
+      && python manage.py runserver 0.0.0.0:3000"
+    tty: true
+    stdin_open: true
+    depends_on:
+      - redis
+
+  celery:
+    build: ./backend
+    env_file:
+      - ./.env
+    command: celery -A dearbrightly worker -l INFO
+    volumes:
+      - ./backend:/backend/
+    depends_on:
+      - backend
+      - redis
+    restart: always
+
+  redis:
+    image: redis:alpine
+
+  nginx:
+    build:
+      context: nginx
+      dockerfile: Dockerfile
+      args:
+        - nginx_file=nginx.dev.conf
+    volumes:
+      - dist:/app-files
+
+  postgres:
+    ports:
+      - ${POSTGRES_PORTS}
+
+volumes:
+  dist:

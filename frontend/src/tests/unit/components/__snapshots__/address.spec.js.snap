@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Address should render correctly 1`] = `
+<div
+  className="address-container"
+>
+  <div>
+    Street
+  </div>
+  <div>
+    City, State, Zip
+  </div>
+  <div>
+    Phone
+  </div>
+</div>
+`;

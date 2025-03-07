@@ -1,0 +1,290 @@
+[
+  {
+    "model": "emr.chatmessage",
+    "pk": 1,
+    "fields": {
+      "created_datetime": "2019-07-18T09:45:21.748335+00",
+      "last_modified_datetime": "2019-07-18T09:45:21.748335+00",
+      "read_datetime": "2019-07-18T09:45:21.748335+00",
+      "body": "You will be getting your tailored retinoid in the mail within 5-7 business days. Please refer to your Treatment Plan in your order. You can message the medical team directly anytime in this secure chat. If you have questions about your account or order please reach out to Dear Brightly at support@dearbrightly.com or (415) 906-5937.\nPlease stop the medication if you are trying to conceive, become pregnant, or are nursing. If you are sexually active, please use contraception/birth control. Also, while on the medication use an SPF 30 or greater and try to avoid the sun as much as possible especially during the hours of 10 AM - 3 PM Have any new or changing moles checked annually or right away if growing or bleeding by a dermatologist.",
+      "receiver_id": 2,
+      "sender_id": 9
+    }
+  },
+  {
+    "model": "emr.chatmessage",
+    "pk": 2,
+    "fields": {
+      "created_datetime": "2019-07-19 09:45:21.748335+00",
+      "last_modified_datetime": "2019-07-19 09:45:21.748335+00",
+      "read_datetime": "2019-07-19 09:45:21.748335+00",
+      "body": "Hi, Dear Brightly! I've finished reviewing your medical and skin profile info, and have sent over a prescription for your retinoid formula. I'm starting you off with a lite formula based off your skin history before I increase your strength for the next fill. You'll have a better experience easing into it.",
+      "receiver_id": 2,
+      "sender_id": 9
+    }
+  },
+  {
+    "model": "emr.chatmessage",
+    "pk": 3,
+    "fields": {
+      "created_datetime": "2019-07-19 11:45:21.748335+00",
+      "last_modified_datetime": "2019-07-19 11:45:21.748335+00",
+      "read_datetime": "2019-07-19 11:45:21.748335+00",
+      "body": "Hi, thanks for the info. When should I expect the shipment to arrive?",
+      "receiver_id": 9,
+      "sender_id": 2
+    }
+  },
+  {
+    "model": "emr.chatmessage",
+    "pk": 4,
+    "fields": {
+      "created_datetime": "2019-07-19 12:45:21.748335+00",
+      "last_modified_datetime": "2019-07-19 12:45:21.748335+00",
+      "read_datetime": "2019-07-19 12:45:21.748335+00",
+      "body": "You should be receiving your order in 5-7 business days.",
+      "receiver_id": 2,
+      "sender_id": 9
+    }
+  },
+  {
+    "model": "emr.chatmessage",
+    "pk": 5,
+    "fields": {
+      "created_datetime": "2019-07-18T09:45:21.748335+00",
+      "last_modified_datetime": "2019-07-18T09:45:21.748335+00",
+      "read_datetime": "2019-07-18T09:45:21.748335+00",
+      "body": "You will be getting your tailored retinoid in the mail within 5-7 business days. Please refer to the treatment plan in your order. You can message the medical team directly anytime in this secure chat. If you have questions about your account or order please reach out to Dear Brightly at support@dearbrightly.com or (415) 906-5937.\nPlease stop the medication if you are trying to conceive, become pregnant, or are nursing. If you are sexually active, please use contraception/birth control. Also, while on the medication use an SPF 30 or greater and try to avoid the sun as much as possible especially during the hours of 10 AM - 3 PM. Have any new or changing moles checked annually or right away if growing or bleeding by a dermatologist.",
+      "receiver_id": 3,
+      "sender_id": 9
+    }
+  },
+  {
+    "model": "emr.chatmessage",
+    "pk": 6,
+    "fields": {
+      "created_datetime": "2019-07-19 09:45:21.748335+00",
+      "last_modified_datetime": "2019-07-19 09:45:21.748335+00",
+      "read_datetime": "2019-07-19 09:45:21.748335+00",
+      "body": "Hi, Dear Brightly! I've finished reviewing your medical and skin profile info, and have sent over a prescription for your retinoid formula. I'm starting you off with a lite formula based off your skin history before I increase your strength for the next fill. You'll have a better experience easing into it.",
+      "receiver_id": 3,
+      "sender_id": 9
+    }
+  },
+  {
+    "model": "emr.chatmessage",
+    "pk": 7,
+    "fields": {
+      "created_datetime": "2019-07-19 11:45:21.748335+00",
+      "last_modified_datetime": "2019-07-19 11:45:21.748335+00",
+      "read_datetime": "2019-07-19 11:45:21.748335+00",
+      "body": "Hi, thanks for the info. When should I expect the shipment to arrive?",
+      "receiver_id": 9,
+      "sender_id": 3
+    }
+  },
+  {
+    "model": "emr.chatmessage",
+    "pk": 8,
+    "fields": {
+      "created_datetime": "2019-07-19 12:45:21.748335+00",
+      "last_modified_datetime": "2019-07-19 12:45:21.748335+00",
+      "read_datetime": "2019-07-19 12:45:21.748335+00",
+      "body": "You should be receiving your order in 5-7 business days.",
+      "receiver_id": 3,
+      "sender_id": 9
+    }
+  },
+  {
+    "model": "emr.chatmessage",
+    "pk": 9,
+    "fields": {
+      "created_datetime": "2019-07-18T09:45:21.748335+00",
+      "last_modified_datetime": "2019-07-18T09:45:21.748335+00",
+      "read_datetime": "2019-07-18T09:45:21.748335+00",
+      "body": "You will be getting your tailored retinoid in the mail within 5-7 business days. Please refer to the treatment plan in your order. You can message the medical team directly anytime in this secure chat. If you have questions about your account or order please reach out to Dear Brightly at support@dearbrightly.com or (415) 906-5937.\nPlease stop the medication if you are trying to conceive, become pregnant, or are nursing. If you are sexually active, please use contraception/birth control. Also, while on the medication use an SPF 30 or greater and try to avoid the sun as much as possible especially during the hours of 10 AM - 3 PM. Have any new or changing moles checked annually or right away if growing or bleeding by a dermatologist.",
+      "receiver_id": 9,
+      "sender_id": 4
+    }
+  },
+  {
+    "model": "emr.chatmessage",
+    "pk": 10,
+    "fields": {
+      "created_datetime": "2019-07-19 09:45:21.748335+00",
+      "last_modified_datetime": "2019-07-19 09:45:21.748335+00",
+      "read_datetime": "2019-07-19 09:45:21.748335+00",
+      "body": "Hi, Dear Brightly! I've finished reviewing your medical and skin profile info, and have sent over a prescription for your retinoid formula. I'm starting you off with a lite formula based off your skin history before I increase your strength for the next fill. You'll have a better experience easing into it.",
+      "receiver_id": 4,
+      "sender_id": 9
+    }
+  },
+  {
+    "model": "emr.chatmessage",
+    "pk": 11,
+    "fields": {
+      "created_datetime": "2019-07-19 11:45:21.748335+00",
+      "last_modified_datetime": "2019-07-19 11:45:21.748335+00",
+      "read_datetime": "2019-07-19 11:45:21.748335+00",
+      "body": "Hi, thanks for the info. When should I expect the shipment to arrive?",
+      "receiver_id": 9,
+      "sender_id": 4
+    }
+  },
+  {
+    "model": "emr.chatmessage",
+    "pk": 12,
+    "fields": {
+      "created_datetime": "2019-07-19 12:45:21.748335+00",
+      "last_modified_datetime": "2019-07-19 12:45:21.748335+00",
+      "read_datetime": "2019-07-19 12:45:21.748335+00",
+      "body": "You should be receiving your order in 5-7 business days.",
+      "receiver_id": 4,
+      "sender_id": 9
+    }
+  },
+  {
+    "model": "emr.chatmessage",
+    "pk": 13,
+    "fields": {
+      "created_datetime": "2019-07-18T09:45:21.748335+00",
+      "last_modified_datetime": "2019-07-18T09:45:21.748335+00",
+      "read_datetime": "2019-07-18T09:45:21.748335+00",
+      "body": "You will be getting your tailored retinoid in the mail within 5-7 business days. Please refer to the treatment plan in your order. You can message the medical team directly anytime in this secure chat. If you have questions about your account or order please reach out to Dear Brightly at support@dearbrightly.com or (415) 906-5937.\nPlease stop the medication if you are trying to conceive, become pregnant, or are nursing. If you are sexually active, please use contraception/birth control. Also, while on the medication use an SPF 30 or greater and try to avoid the sun as much as possible especially during the hours of 10 AM - 3 PM. Have any new or changing moles checked annually or right away if growing or bleeding by a dermatologist.",
+      "receiver_id": 5,
+      "sender_id": 9
+    }
+  },
+  {
+    "model": "emr.chatmessage",
+    "pk": 14,
+    "fields": {
+      "created_datetime": "2019-07-19 09:45:21.748335+00",
+      "last_modified_datetime": "2019-07-19 09:45:21.748335+00",
+      "read_datetime": "2019-07-19 09:45:21.748335+00",
+      "body": "Hi, Dear Brightly! I've finished reviewing your medical and skin profile info, and have sent over a prescription for your retinoid formula. I'm starting you off with a lite formula based off your skin history before I increase your strength for the next fill. You'll have a better experience easing into it.",
+      "receiver_id": 5,
+      "sender_id": 9
+    }
+  },
+  {
+    "model": "emr.chatmessage",
+    "pk": 15,
+    "fields": {
+      "created_datetime": "2019-07-19 11:45:21.748335+00",
+      "last_modified_datetime": "2019-07-19 11:45:21.748335+00",
+      "read_datetime": "2019-07-19 11:45:21.748335+00",
+      "body": "Hi, thanks for the info. When should I expect the shipment to arrive?",
+      "receiver_id": 9,
+      "sender_id": 5
+    }
+  },
+  {
+    "model": "emr.chatmessage",
+    "pk": 16,
+    "fields": {
+      "created_datetime": "2019-07-19 12:45:21.748335+00",
+      "last_modified_datetime": "2019-07-19 12:45:21.748335+00",
+      "read_datetime": "2019-07-19 12:45:21.748335+00",
+      "body": "You should be receiving your order in 5-7 business days.",
+      "receiver_id": 5,
+      "sender_id": 9
+    }
+  },
+  {
+    "model": "emr.chatmessage",
+    "pk": 17,
+    "fields": {
+      "created_datetime": "2019-07-18T09:45:21.748335+00",
+      "last_modified_datetime": "2019-07-18T09:45:21.748335+00",
+      "read_datetime": "2019-07-18T09:45:21.748335+00",
+      "body": "You will be getting your tailored retinoid in the mail within 5-7 business days. Please refer to the treatment plan in your order. You can message the medical team directly anytime in this secure chat. If you have questions about your account or order please reach out to Dear Brightly at support@dearbrightly.com or (415) 906-5937.\nPlease stop the medication if you are trying to conceive, become pregnant, or are nursing. If you are sexually active, please use contraception/birth control. Also, while on the medication use an SPF 30 or greater and try to avoid the sun as much as possible especially during the hours of 10 AM - 3 PM. Have any new or changing moles checked annually or right away if growing or bleeding by a dermatologist.",
+      "receiver_id": 6,
+      "sender_id": 9
+    }
+  },
+  {
+    "model": "emr.chatmessage",
+    "pk": 18,
+    "fields": {
+      "created_datetime": "2019-07-19 09:45:21.748335+00",
+      "last_modified_datetime": "2019-07-19 09:45:21.748335+00",
+      "read_datetime": "2019-07-19 09:45:21.748335+00",
+      "body": "Hi, Dear Brightly! I've finished reviewing your medical and skin profile info, and have sent over a prescription for your retinoid formula. I'm starting you off with a lite formula based off your skin history before I increase your strength for the next fill. You'll have a better experience easing into it.",
+      "receiver_id": 6,
+      "sender_id": 9
+    }
+  },
+  {
+    "model": "emr.chatmessage",
+    "pk": 19,
+    "fields": {
+      "created_datetime": "2019-07-19 11:45:21.748335+00",
+      "last_modified_datetime": "2019-07-19 11:45:21.748335+00",
+      "read_datetime": "2019-07-19 11:45:21.748335+00",
+      "body": "Hi, thanks for the info. When should I expect the shipment to arrive?",
+      "receiver_id": 9,
+      "sender_id": 6
+    }
+  },
+  {
+    "model": "emr.chatmessage",
+    "pk": 20,
+    "fields": {
+      "created_datetime": "2019-07-19 12:45:21.748335+00",
+      "last_modified_datetime": "2019-07-19 12:45:21.748335+00",
+      "read_datetime": "2019-07-19 12:45:21.748335+00",
+      "body": "You should be receiving your order in 5-7 business days.",
+      "receiver_id": 6,
+      "sender_id": 9
+    }
+  },
+  {
+    "model": "emr.chatmessage",
+    "pk": 21,
+    "fields": {
+      "created_datetime": "2019-07-18T09:45:21.748335+00",
+      "last_modified_datetime": "2019-07-18T09:45:21.748335+00",
+      "read_datetime": "2019-07-18T09:45:21.748335+00",
+      "body": "You will be getting your tailored retinoid in the mail within 5-7 business days. Please refer to the treatment plan in your order. You can message the medical team directly anytime in this secure chat. If you have questions about your account or order please reach out to Dear Brightly at support@dearbrightly.com or (415) 906-5937.\nPlease stop the medication if you are trying to conceive, become pregnant, or are nursing. If you are sexually active, please use contraception/birth control. Also, while on the medication use an SPF 30 or greater and try to avoid the sun as much as possible especially during the hours of 10 AM - 3 PM. Have any new or changing moles checked annually or right away if growing or bleeding by a dermatologist.",
+      "receiver_id": 7,
+      "sender_id": 9
+    }
+  },
+  {
+    "model": "emr.chatmessage",
+    "pk": 22,
+    "fields": {
+      "created_datetime": "2019-07-19 09:45:21.748335+00",
+      "last_modified_datetime": "2019-07-19 09:45:21.748335+00",
+      "read_datetime": "2019-07-19 09:45:21.748335+00",
+      "body": "Hi, Dear Brightly! I've finished reviewing your medical and skin profile info, and have sent over a prescription for your retinoid formula. I'm starting you off with a lite formula based off your skin history before I increase your strength for the next fill. You'll have a better experience easing into it.",
+      "receiver_id": 7,
+      "sender_id": 9
+    }
+  },
+  {
+    "model": "emr.chatmessage",
+    "pk": 23,
+    "fields": {
+      "created_datetime": "2019-07-19 11:45:21.748335+00",
+      "last_modified_datetime": "2019-07-19 11:45:21.748335+00",
+      "read_datetime": "2019-07-19 11:45:21.748335+00",
+      "body": "Hi, thanks for the info. When should I expect the shipment to arrive?",
+      "receiver_id": 9,
+      "sender_id": 7
+    }
+  },
+  {
+    "model": "emr.chatmessage",
+    "pk": 24,
+    "fields": {
+      "created_datetime": "2019-07-19 12:45:21.748335+00",
+      "last_modified_datetime": "2019-07-19 12:45:21.748335+00",
+      "read_datetime": "2019-07-19 12:45:21.748335+00",
+      "body": "You should be receiving your order in 5-7 business days.",
+      "receiver_id": 7,
+      "sender_id": 9
+    }
+  }
+]

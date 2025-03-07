@@ -1,0 +1,144 @@
+[
+  {
+    "model": "emr.questionids",
+    "pk": 1,
+    "fields": {
+      "allergies_question_id": 1279,
+      "medication_question_id": 1277,
+      "skincare_medication_question_id": 1281,
+      "how_did_you_hear_about_us_question_id": 1269,
+      "pregnant_or_nursing_question_id": 1271
+    }
+  },
+  {
+    "model": "emr.questionids",
+    "pk": 2,
+    "fields": {
+      "allergies_question_id": 1320,
+      "medication_question_id": 1318,
+      "skincare_medication_question_id": 1322,
+      "how_did_you_hear_about_us_question_id": 1309,
+      "pregnant_or_nursing_question_id": 1312,
+      "influencer_question_id": 1310
+    }
+  },
+  {
+    "model": "emr.questionids",
+    "pk": 3,
+    "fields": {
+      "allergies_question_id": 1342,
+      "medication_question_id": 1340,
+      "skincare_medication_question_id": 1344,
+      "how_did_you_hear_about_us_question_id": 1330,
+      "pregnant_or_nursing_question_id": 1334,
+      "influencer_question_id": 1331
+    }
+  },
+  {
+    "model": "emr.questionids",
+    "pk": 4,
+    "fields": {
+      "allergies_question_id": 1216,
+      "medication_question_id": 1214,
+      "skincare_medication_question_id": 1218,
+      "pregnant_or_nursing_question_id": 1220
+    }
+  },
+  {
+    "model": "emr.questionids",
+    "pk": 5,
+    "fields": {
+      "allergies_question_id": 1263,
+      "medication_question_id": 1261,
+      "skincare_medication_question_id": 1265,
+      "pregnant_or_nursing_question_id": 1267
+    }
+  },
+  {
+    "model": "emr.questionids",
+    "pk": 6,
+    "fields": {
+      "allergies_question_id": 1299,
+      "medication_question_id": 1297,
+      "skincare_medication_question_id": 1301,
+      "how_did_you_hear_about_us_question_id": 1289,
+      "pregnant_or_nursing_question_id": 1291
+    }
+  },
+  {
+    "model": "emr.questionids",
+    "pk": 7,
+    "fields": {
+      "allergies_question_id": 1169,
+      "medication_question_id": 1167,
+      "skincare_medication_question_id": 1171,
+      "pregnant_or_nursing_question_id": 1173
+    }
+  },
+  {
+    "model": "emr.questionids",
+    "pk": 8,
+    "fields": {
+      "allergies_question_id": 1122,
+      "medication_question_id": 1120,
+      "skincare_medication_question_id": 1124,
+      "pregnant_or_nursing_question_id": 1126
+    }
+  },
+  {
+    "model": "emr.questionids",
+    "pk": 9,
+    "fields": {
+      "allergies_question_id": 1051,
+      "medication_question_id": 1049,
+      "skincare_medication_question_id": 1053,
+      "pregnant_or_nursing_question_id": 1055
+    }
+  },
+  {
+    "model": "emr.questionids",
+    "pk": 10,
+    "fields": {
+      "allergies_question_id": 1342,
+      "medication_question_id": 1340,
+      "skincare_medication_question_id": 1344,
+      "how_did_you_hear_about_us_question_id": 1330,
+      "pregnant_or_nursing_question_id": 1334,
+      "influencer_question_id": 1331
+    }
+  },
+    {
+    "model": "emr.questionids",
+    "pk": 11,
+    "fields": {
+      "gender_question_id": 1329,
+      "allergies_question_id": 1342,
+      "medication_question_id": 1340,
+      "skincare_medication_question_id": 1344,
+      "how_did_you_hear_about_us_question_id": 1330,
+      "pregnant_or_nursing_question_id": 1334,
+      "influencer_question_id": 1331
+    }
+  },
+  {
+    "model": "emr.questionids",
+    "pk": 12,
+    "fields": {
+      "gender_question_id": 1329,
+      "allergies_question_id": 1342,
+      "medication_question_id": 1340,
+      "skincare_medication_question_id": 1344,
+      "pregnant_or_nursing_question_id": 1334
+    }
+  },
+    {
+    "model": "emr.questionids",
+    "pk": 13,
+    "fields": {
+      "allergies_question_id": 1342,
+      "medication_question_id": 1340,
+      "changes_to_skin_question_id": 1345,
+      "pregnant_or_nursing_question_id": 1334
+    }
+  }
+]

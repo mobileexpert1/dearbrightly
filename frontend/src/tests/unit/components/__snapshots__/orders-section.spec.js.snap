@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderModal should render correctly 1`] = `
+<div
+  className="orders-section-container"
+>
+  <div
+    className="orders-section-main-message"
+  >
+    You haven't placed any orders yet.
+  </div>
+  <div
+    className="orders-section-pagination"
+  >
+    1 of 1
+  </div>
+</div>
+`;
