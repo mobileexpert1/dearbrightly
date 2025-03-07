@@ -58,7 +58,7 @@ services:
       args:
         - nginx_file=nginx.staging.conf
     ports:
-     - ${NGINX_PORTS}
+     - "80:80"
     restart: always
     container_name: nginx
     depends_on:
